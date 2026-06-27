@@ -41,7 +41,7 @@ Key Findings:
 
 ## 🌐 Live Demo
 
-> `https://neurosentinel.streamlit.app/`
+> [NeuroSentinel App](https://neurosentinel.streamlit.app)
 
 ## How It Works:
 
