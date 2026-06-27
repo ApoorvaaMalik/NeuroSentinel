@@ -1,0 +1,530 @@
+{
+  "Task_0_1": [
+    {
+      "step": 237,
+      "accuracy": 0.9275
+    },
+    {
+      "step": 240,
+      "accuracy": 0.8095
+    },
+    {
+      "step": 260,
+      "accuracy": 0.0
+    },
+    {
+      "step": 280,
+      "accuracy": 0.0
+    },
+    {
+      "step": 300,
+      "accuracy": 0.0
+    },
+    {
+      "step": 320,
+      "accuracy": 0.0
+    },
+    {
+      "step": 340,
+      "accuracy": 0.0
+    },
+    {
+      "step": 360,
+      "accuracy": 0.0
+    },
+    {
+      "step": 380,
+      "accuracy": 0.0
+    },
+    {
+      "step": 400,
+      "accuracy": 0.0
+    },
+    {
+      "step": 420,
+      "accuracy": 0.0
+    },
+    {
+      "step": 440,
+      "accuracy": 0.0
+    },
+    {
+      "step": 460,
+      "accuracy": 0.0
+    },
+    {
+      "step": 474,
+      "accuracy": 0.0
+    },
+    {
+      "step": 480,
+      "accuracy": 0.0
+    },
+    {
+      "step": 500,
+      "accuracy": 0.0
+    },
+    {
+      "step": 520,
+      "accuracy": 0.0
+    },
+    {
+      "step": 540,
+      "accuracy": 0.0
+    },
+    {
+      "step": 560,
+      "accuracy": 0.0
+    },
+    {
+      "step": 580,
+      "accuracy": 0.0
+    },
+    {
+      "step": 600,
+      "accuracy": 0.0
+    },
+    {
+      "step": 620,
+      "accuracy": 0.0
+    },
+    {
+      "step": 640,
+      "accuracy": 0.0
+    },
+    {
+      "step": 660,
+      "accuracy": 0.0
+    },
+    {
+      "step": 680,
+      "accuracy": 0.0
+    },
+    {
+      "step": 700,
+      "accuracy": 0.0
+    },
+    {
+      "step": 711,
+      "accuracy": 0.0
+    },
+    {
+      "step": 720,
+      "accuracy": 0.0
+    },
+    {
+      "step": 740,
+      "accuracy": 0.0
+    },
+    {
+      "step": 760,
+      "accuracy": 0.0
+    },
+    {
+      "step": 780,
+      "accuracy": 0.0
+    },
+    {
+      "step": 800,
+      "accuracy": 0.0
+    },
+    {
+      "step": 820,
+      "accuracy": 0.0
+    },
+    {
+      "step": 840,
+      "accuracy": 0.0
+    },
+    {
+      "step": 860,
+      "accuracy": 0.0
+    },
+    {
+      "step": 880,
+      "accuracy": 0.0
+    },
+    {
+      "step": 900,
+      "accuracy": 0.0
+    },
+    {
+      "step": 920,
+      "accuracy": 0.0
+    },
+    {
+      "step": 940,
+      "accuracy": 0.0
+    },
+    {
+      "step": 948,
+      "accuracy": 0.0
+    },
+    {
+      "step": 960,
+      "accuracy": 0.0
+    },
+    {
+      "step": 980,
+      "accuracy": 0.0
+    },
+    {
+      "step": 1000,
+      "accuracy": 0.0
+    },
+    {
+      "step": 1020,
+      "accuracy": 0.0
+    },
+    {
+      "step": 1040,
+      "accuracy": 0.0
+    },
+    {
+      "step": 1060,
+      "accuracy": 0.0
+    },
+    {
+      "step": 1080,
+      "accuracy": 0.0
+    },
+    {
+      "step": 1100,
+      "accuracy": 0.0
+    },
+    {
+      "step": 1120,
+      "accuracy": 0.0
+    },
+    {
+      "step": 1140,
+      "accuracy": 0.0
+    },
+    {
+      "step": 1160,
+      "accuracy": 0.0
+    },
+    {
+      "step": 1180,
+      "accuracy": 0.0
+    }
+  ],
+  "Task_2_3": [
+    {
+      "step": 474,
+      "accuracy": 0.7935
+    },
+    {
+      "step": 480,
+      "accuracy": 0.5
+    },
+    {
+      "step": 500,
+      "accuracy": 0.0
+    },
+    {
+      "step": 520,
+      "accuracy": 0.0
+    },
+    {
+      "step": 540,
+      "accuracy": 0.0
+    },
+    {
+      "step": 560,
+      "accuracy": 0.0
+    },
+    {
+      "step": 580,
+      "accuracy": 0.0
+    },
+    {
+      "step": 600,
+      "accuracy": 0.0
+    },
+    {
+      "step": 620,
+      "accuracy": 0.0
+    },
+    {
+      "step": 640,
+      "accuracy": 0.0
+    },
+    {
+      "step": 660,
+      "accuracy": 0.0
+    },
+    {
+      "step": 680,
+      "accuracy": 0.0
+    },
+    {
+      "step": 700,
+      "accuracy": 0.0
+    },
+    {
+      "step": 711,
+      "accuracy": 0.0
+    },
+    {
+      "step": 720,
+      "accuracy": 0.0
+    },
+    {
+      "step": 740,
+      "accuracy": 0.0
+    },
+    {
+      "step": 760,
+      "accuracy": 0.0
+    },
+    {
+      "step": 780,
+      "accuracy": 0.0
+    },
+    {
+      "step": 800,
+      "accuracy": 0.0
+    },
+    {
+      "step": 820,
+      "accuracy": 0.0
+    },
+    {
+      "step": 840,
+      "accuracy": 0.0
+    },
+    {
+      "step": 860,
+      "accuracy": 0.0
+    },
+    {
+      "step": 880,
+      "accuracy": 0.0
+    },
+    {
+      "step": 900,
+      "accuracy": 0.0
+    },
+    {
+      "step": 920,
+      "accuracy": 0.0
+    },
+    {
+      "step": 940,
+      "accuracy": 0.0
+    },
+    {
+      "step": 948,
+      "accuracy": 0.0
+    },
+    {
+      "step": 960,
+      "accuracy": 0.004
+    },
+    {
+      "step": 980,
+      "accuracy": 0.0
+    },
+    {
+      "step": 1000,
+      "accuracy": 0.0
+    },
+    {
+      "step": 1020,
+      "accuracy": 0.0
+    },
+    {
+      "step": 1040,
+      "accuracy": 0.0
+    },
+    {
+      "step": 1060,
+      "accuracy": 0.0
+    },
+    {
+      "step": 1080,
+      "accuracy": 0.0
+    },
+    {
+      "step": 1100,
+      "accuracy": 0.0
+    },
+    {
+      "step": 1120,
+      "accuracy": 0.0
+    },
+    {
+      "step": 1140,
+      "accuracy": 0.0
+    },
+    {
+      "step": 1160,
+      "accuracy": 0.0
+    },
+    {
+      "step": 1180,
+      "accuracy": 0.0
+    }
+  ],
+  "Task_4_5": [
+    {
+      "step": 711,
+      "accuracy": 0.6945
+    },
+    {
+      "step": 720,
+      "accuracy": 0.5
+    },
+    {
+      "step": 740,
+      "accuracy": 0.013
+    },
+    {
+      "step": 760,
+      "accuracy": 0.0
+    },
+    {
+      "step": 780,
+      "accuracy": 0.0
+    },
+    {
+      "step": 800,
+      "accuracy": 0.0
+    },
+    {
+      "step": 820,
+      "accuracy": 0.0
+    },
+    {
+      "step": 840,
+      "accuracy": 0.0
+    },
+    {
+      "step": 860,
+      "accuracy": 0.0
+    },
+    {
+      "step": 880,
+      "accuracy": 0.0
+    },
+    {
+      "step": 900,
+      "accuracy": 0.0
+    },
+    {
+      "step": 920,
+      "accuracy": 0.0
+    },
+    {
+      "step": 940,
+      "accuracy": 0.0
+    },
+    {
+      "step": 948,
+      "accuracy": 0.0
+    },
+    {
+      "step": 960,
+      "accuracy": 0.0
+    },
+    {
+      "step": 980,
+      "accuracy": 0.0
+    },
+    {
+      "step": 1000,
+      "accuracy": 0.0
+    },
+    {
+      "step": 1020,
+      "accuracy": 0.0
+    },
+    {
+      "step": 1040,
+      "accuracy": 0.0
+    },
+    {
+      "step": 1060,
+      "accuracy": 0.0
+    },
+    {
+      "step": 1080,
+      "accuracy": 0.0
+    },
+    {
+      "step": 1100,
+      "accuracy": 0.0
+    },
+    {
+      "step": 1120,
+      "accuracy": 0.0
+    },
+    {
+      "step": 1140,
+      "accuracy": 0.0
+    },
+    {
+      "step": 1160,
+      "accuracy": 0.0
+    },
+    {
+      "step": 1180,
+      "accuracy": 0.0
+    }
+  ],
+  "Task_6_7": [
+    {
+      "step": 948,
+      "accuracy": 0.826
+    },
+    {
+      "step": 960,
+      "accuracy": 0.5
+    },
+    {
+      "step": 980,
+      "accuracy": 0.4765
+    },
+    {
+      "step": 1000,
+      "accuracy": 0.0
+    },
+    {
+      "step": 1020,
+      "accuracy": 0.0
+    },
+    {
+      "step": 1040,
+      "accuracy": 0.0
+    },
+    {
+      "step": 1060,
+      "accuracy": 0.0
+    },
+    {
+      "step": 1080,
+      "accuracy": 0.0
+    },
+    {
+      "step": 1100,
+      "accuracy": 0.0
+    },
+    {
+      "step": 1120,
+      "accuracy": 0.0
+    },
+    {
+      "step": 1140,
+      "accuracy": 0.0
+    },
+    {
+      "step": 1160,
+      "accuracy": 0.0
+    },
+    {
+      "step": 1180,
+      "accuracy": 0.0
+    }
+  ]
+}

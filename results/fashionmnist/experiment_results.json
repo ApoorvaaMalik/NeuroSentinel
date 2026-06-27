@@ -1,0 +1,4718 @@
+{
+  "dataset": "fashionmnist",
+  "task_accuracies": {
+    "Task_0_1": {
+      "Task_0_1": 0.991
+    },
+    "Task_2_3": {
+      "Task_0_1": 0.0,
+      "Task_2_3": 0.9685
+    },
+    "Task_4_5": {
+      "Task_0_1": 0.0,
+      "Task_2_3": 0.0,
+      "Task_4_5": 1.0
+    },
+    "Task_6_7": {
+      "Task_0_1": 0.0,
+      "Task_2_3": 0.0,
+      "Task_4_5": 0.0,
+      "Task_6_7": 0.9995
+    },
+    "Task_8_9": {
+      "Task_0_1": 0.0,
+      "Task_2_3": 0.0,
+      "Task_4_5": 0.0,
+      "Task_6_7": 0.0,
+      "Task_8_9": 0.9965
+    }
+  },
+  "risk_scores": [
+    {
+      "step": 290,
+      "task_idx": 1,
+      "layer": "layers.0",
+      "conflict": 0.5073696468025446,
+      "fisher_weight": 0.010089668118419524,
+      "risk": 0.3084576553288946,
+      "num_current_grads": 8
+    },
+    {
+      "step": 290,
+      "task_idx": 1,
+      "layer": "layers.2",
+      "conflict": 0.5030522018205374,
+      "fisher_weight": 0.004771052120336328,
+      "risk": 0.303739741940457,
+      "num_current_grads": 8
+    },
+    {
+      "step": 290,
+      "task_idx": 1,
+      "layer": "layers.4",
+      "conflict": 0.5000316920195473,
+      "fisher_weight": 0.013601522181919528,
+      "risk": 0.30545962408449623,
+      "num_current_grads": 8
+    },
+    {
+      "step": 290,
+      "task_idx": 1,
+      "layer": "layers.6",
+      "conflict": 0.4988687140867114,
+      "fisher_weight": 1.0,
+      "risk": 0.6993212284520269,
+      "num_current_grads": 8
+    },
+    {
+      "step": 300,
+      "task_idx": 1,
+      "layer": "layers.0",
+      "conflict": 0.5100748147815466,
+      "fisher_weight": 0.010089668118419524,
+      "risk": 0.31008075611629576,
+      "num_current_grads": 18
+    },
+    {
+      "step": 300,
+      "task_idx": 1,
+      "layer": "layers.2",
+      "conflict": 0.520192401483655,
+      "fisher_weight": 0.004771052120336328,
+      "risk": 0.3140238617383275,
+      "num_current_grads": 18
+    },
+    {
+      "step": 300,
+      "task_idx": 1,
+      "layer": "layers.4",
+      "conflict": 0.5177665390074253,
+      "fisher_weight": 0.013601522181919528,
+      "risk": 0.316100532277223,
+      "num_current_grads": 18
+    },
+    {
+      "step": 300,
+      "task_idx": 1,
+      "layer": "layers.6",
+      "conflict": 0.49999659969216736,
+      "fisher_weight": 1.0,
+      "risk": 0.6999979598153004,
+      "num_current_grads": 18
+    },
+    {
+      "step": 310,
+      "task_idx": 1,
+      "layer": "layers.0",
+      "conflict": 0.4929186156950891,
+      "fisher_weight": 0.010089668118419524,
+      "risk": 0.29978703666442125,
+      "num_current_grads": 28
+    },
+    {
+      "step": 310,
+      "task_idx": 1,
+      "layer": "layers.2",
+      "conflict": 0.4930245475843549,
+      "fisher_weight": 0.004771052120336328,
+      "risk": 0.29772314939874744,
+      "num_current_grads": 28
+    },
+    {
+      "step": 310,
+      "task_idx": 1,
+      "layer": "layers.4",
+      "conflict": 0.4952439097687602,
+      "fisher_weight": 0.013601522181919528,
+      "risk": 0.3025869547340239,
+      "num_current_grads": 28
+    },
+    {
+      "step": 310,
+      "task_idx": 1,
+      "layer": "layers.6",
+      "conflict": 0.5000102288431663,
+      "fisher_weight": 1.0,
+      "risk": 0.7000061373058998,
+      "num_current_grads": 28
+    },
+    {
+      "step": 320,
+      "task_idx": 1,
+      "layer": "layers.0",
+      "conflict": 0.5130914663895965,
+      "fisher_weight": 0.010089668118419524,
+      "risk": 0.3118907470811257,
+      "num_current_grads": 38
+    },
+    {
+      "step": 320,
+      "task_idx": 1,
+      "layer": "layers.2",
+      "conflict": 0.5087467608973384,
+      "fisher_weight": 0.004771052120336328,
+      "risk": 0.30715647738653756,
+      "num_current_grads": 38
+    },
+    {
+      "step": 320,
+      "task_idx": 1,
+      "layer": "layers.4",
+      "conflict": 0.5077245435677469,
+      "fisher_weight": 0.013601522181919528,
+      "risk": 0.31007533501341594,
+      "num_current_grads": 38
+    },
+    {
+      "step": 320,
+      "task_idx": 1,
+      "layer": "layers.6",
+      "conflict": 0.5000008709376971,
+      "fisher_weight": 1.0,
+      "risk": 0.7000005225626182,
+      "num_current_grads": 38
+    },
+    {
+      "step": 330,
+      "task_idx": 1,
+      "layer": "layers.0",
+      "conflict": 0.478111207485199,
+      "fisher_weight": 0.010089668118419524,
+      "risk": 0.2909025917384872,
+      "num_current_grads": 48
+    },
+    {
+      "step": 330,
+      "task_idx": 1,
+      "layer": "layers.2",
+      "conflict": 0.49240928376093507,
+      "fisher_weight": 0.004771052120336328,
+      "risk": 0.29735399110469557,
+      "num_current_grads": 48
+    },
+    {
+      "step": 330,
+      "task_idx": 1,
+      "layer": "layers.4",
+      "conflict": 0.4958562212996185,
+      "fisher_weight": 0.013601522181919528,
+      "risk": 0.30295434165253887,
+      "num_current_grads": 48
+    },
+    {
+      "step": 330,
+      "task_idx": 1,
+      "layer": "layers.6",
+      "conflict": 0.4999750332935946,
+      "fisher_weight": 1.0,
+      "risk": 0.6999850199761568,
+      "num_current_grads": 48
+    },
+    {
+      "step": 340,
+      "task_idx": 1,
+      "layer": "layers.0",
+      "conflict": 0.5053372597321868,
+      "fisher_weight": 0.010089668118419524,
+      "risk": 0.30723822308667986,
+      "num_current_grads": 50
+    },
+    {
+      "step": 340,
+      "task_idx": 1,
+      "layer": "layers.2",
+      "conflict": 0.5058059566654265,
+      "fisher_weight": 0.004771052120336328,
+      "risk": 0.30539199484739044,
+      "num_current_grads": 50
+    },
+    {
+      "step": 340,
+      "task_idx": 1,
+      "layer": "layers.4",
+      "conflict": 0.5058670020662248,
+      "fisher_weight": 0.013601522181919528,
+      "risk": 0.3089608101125027,
+      "num_current_grads": 50
+    },
+    {
+      "step": 340,
+      "task_idx": 1,
+      "layer": "layers.6",
+      "conflict": 0.4999958998373586,
+      "fisher_weight": 1.0,
+      "risk": 0.6999975399024152,
+      "num_current_grads": 50
+    },
+    {
+      "step": 350,
+      "task_idx": 1,
+      "layer": "layers.0",
+      "conflict": 0.49054482858628035,
+      "fisher_weight": 0.010089668118419524,
+      "risk": 0.298362764399136,
+      "num_current_grads": 50
+    },
+    {
+      "step": 350,
+      "task_idx": 1,
+      "layer": "layers.2",
+      "conflict": 0.48924194648861885,
+      "fisher_weight": 0.004771052120336328,
+      "risk": 0.29545358874130584,
+      "num_current_grads": 50
+    },
+    {
+      "step": 350,
+      "task_idx": 1,
+      "layer": "layers.4",
+      "conflict": 0.4964927979744971,
+      "fisher_weight": 0.013601522181919528,
+      "risk": 0.30333628765746606,
+      "num_current_grads": 50
+    },
+    {
+      "step": 350,
+      "task_idx": 1,
+      "layer": "layers.6",
+      "conflict": 0.4999999432491471,
+      "fisher_weight": 1.0,
+      "risk": 0.6999999659494882,
+      "num_current_grads": 50
+    },
+    {
+      "step": 360,
+      "task_idx": 1,
+      "layer": "layers.0",
+      "conflict": 0.48990766797214746,
+      "fisher_weight": 0.010089668118419524,
+      "risk": 0.2979804680306563,
+      "num_current_grads": 50
+    },
+    {
+      "step": 360,
+      "task_idx": 1,
+      "layer": "layers.2",
+      "conflict": 0.4827476404607296,
+      "fisher_weight": 0.004771052120336328,
+      "risk": 0.2915570051245723,
+      "num_current_grads": 50
+    },
+    {
+      "step": 360,
+      "task_idx": 1,
+      "layer": "layers.4",
+      "conflict": 0.48297311179339886,
+      "fisher_weight": 0.013601522181919528,
+      "risk": 0.29522447594880713,
+      "num_current_grads": 50
+    },
+    {
+      "step": 360,
+      "task_idx": 1,
+      "layer": "layers.6",
+      "conflict": 0.5000105807712316,
+      "fisher_weight": 1.0,
+      "risk": 0.700006348462739,
+      "num_current_grads": 50
+    },
+    {
+      "step": 370,
+      "task_idx": 1,
+      "layer": "layers.0",
+      "conflict": 0.4962980959098786,
+      "fisher_weight": 0.010089668118419524,
+      "risk": 0.30181472479329496,
+      "num_current_grads": 50
+    },
+    {
+      "step": 370,
+      "task_idx": 1,
+      "layer": "layers.2",
+      "conflict": 0.4941587997600436,
+      "fisher_weight": 0.004771052120336328,
+      "risk": 0.29840370070416067,
+      "num_current_grads": 50
+    },
+    {
+      "step": 370,
+      "task_idx": 1,
+      "layer": "layers.4",
+      "conflict": 0.4944277317263186,
+      "fisher_weight": 0.013601522181919528,
+      "risk": 0.30209724790855896,
+      "num_current_grads": 50
+    },
+    {
+      "step": 370,
+      "task_idx": 1,
+      "layer": "layers.6",
+      "conflict": 0.5000015258952999,
+      "fisher_weight": 1.0,
+      "risk": 0.70000091553718,
+      "num_current_grads": 50
+    },
+    {
+      "step": 380,
+      "task_idx": 1,
+      "layer": "layers.0",
+      "conflict": 0.49762337072752416,
+      "fisher_weight": 0.010089668118419524,
+      "risk": 0.3026098896838823,
+      "num_current_grads": 50
+    },
+    {
+      "step": 380,
+      "task_idx": 1,
+      "layer": "layers.2",
+      "conflict": 0.4980583902215585,
+      "fisher_weight": 0.004771052120336328,
+      "risk": 0.30074345498106964,
+      "num_current_grads": 50
+    },
+    {
+      "step": 380,
+      "task_idx": 1,
+      "layer": "layers.4",
+      "conflict": 0.4975457200780511,
+      "fisher_weight": 0.013601522181919528,
+      "risk": 0.30396804091959845,
+      "num_current_grads": 50
+    },
+    {
+      "step": 380,
+      "task_idx": 1,
+      "layer": "layers.6",
+      "conflict": 0.5000027226690236,
+      "fisher_weight": 1.0,
+      "risk": 0.7000016336014141,
+      "num_current_grads": 50
+    },
+    {
+      "step": 390,
+      "task_idx": 1,
+      "layer": "layers.0",
+      "conflict": 0.4871815089136362,
+      "fisher_weight": 0.010089668118419524,
+      "risk": 0.29634477259554953,
+      "num_current_grads": 50
+    },
+    {
+      "step": 390,
+      "task_idx": 1,
+      "layer": "layers.2",
+      "conflict": 0.47855100221931934,
+      "fisher_weight": 0.004771052120336328,
+      "risk": 0.2890390221797261,
+      "num_current_grads": 50
+    },
+    {
+      "step": 390,
+      "task_idx": 1,
+      "layer": "layers.4",
+      "conflict": 0.4802970923483372,
+      "fisher_weight": 0.013601522181919528,
+      "risk": 0.2936188642817701,
+      "num_current_grads": 50
+    },
+    {
+      "step": 390,
+      "task_idx": 1,
+      "layer": "layers.6",
+      "conflict": 0.49999978683345603,
+      "fisher_weight": 1.0,
+      "risk": 0.6999998721000736,
+      "num_current_grads": 50
+    },
+    {
+      "step": 400,
+      "task_idx": 1,
+      "layer": "layers.0",
+      "conflict": 0.5157117042690516,
+      "fisher_weight": 0.010089668118419524,
+      "risk": 0.3134628898087987,
+      "num_current_grads": 50
+    },
+    {
+      "step": 400,
+      "task_idx": 1,
+      "layer": "layers.2",
+      "conflict": 0.5097131775692105,
+      "fisher_weight": 0.004771052120336328,
+      "risk": 0.30773632738966084,
+      "num_current_grads": 50
+    },
+    {
+      "step": 400,
+      "task_idx": 1,
+      "layer": "layers.4",
+      "conflict": 0.511639011092484,
+      "fisher_weight": 0.013601522181919528,
+      "risk": 0.3124240155282582,
+      "num_current_grads": 50
+    },
+    {
+      "step": 400,
+      "task_idx": 1,
+      "layer": "layers.6",
+      "conflict": 0.5000183077772817,
+      "fisher_weight": 1.0,
+      "risk": 0.7000109846663691,
+      "num_current_grads": 50
+    },
+    {
+      "step": 410,
+      "task_idx": 1,
+      "layer": "layers.0",
+      "conflict": 0.5021179981995374,
+      "fisher_weight": 0.010089668118419524,
+      "risk": 0.30530666616709023,
+      "num_current_grads": 50
+    },
+    {
+      "step": 410,
+      "task_idx": 1,
+      "layer": "layers.2",
+      "conflict": 0.4986038279021159,
+      "fisher_weight": 0.004771052120336328,
+      "risk": 0.30107071758940407,
+      "num_current_grads": 50
+    },
+    {
+      "step": 410,
+      "task_idx": 1,
+      "layer": "layers.4",
+      "conflict": 0.4990352484746836,
+      "fisher_weight": 0.013601522181919528,
+      "risk": 0.304861757957578,
+      "num_current_grads": 50
+    },
+    {
+      "step": 410,
+      "task_idx": 1,
+      "layer": "layers.6",
+      "conflict": 0.499999258123637,
+      "fisher_weight": 1.0,
+      "risk": 0.6999995548741822,
+      "num_current_grads": 50
+    },
+    {
+      "step": 420,
+      "task_idx": 1,
+      "layer": "layers.0",
+      "conflict": 0.4976079538464546,
+      "fisher_weight": 0.010089668118419524,
+      "risk": 0.3026006395552406,
+      "num_current_grads": 50
+    },
+    {
+      "step": 420,
+      "task_idx": 1,
+      "layer": "layers.2",
+      "conflict": 0.49939658591756597,
+      "fisher_weight": 0.004771052120336328,
+      "risk": 0.3015463723986741,
+      "num_current_grads": 50
+    },
+    {
+      "step": 420,
+      "task_idx": 1,
+      "layer": "layers.4",
+      "conflict": 0.4979715694207698,
+      "fisher_weight": 0.013601522181919528,
+      "risk": 0.3042235505252297,
+      "num_current_grads": 50
+    },
+    {
+      "step": 420,
+      "task_idx": 1,
+      "layer": "layers.6",
+      "conflict": 0.4999987703952229,
+      "fisher_weight": 1.0,
+      "risk": 0.6999992622371338,
+      "num_current_grads": 50
+    },
+    {
+      "step": 430,
+      "task_idx": 1,
+      "layer": "layers.0",
+      "conflict": 0.4983406338142231,
+      "fisher_weight": 0.010089668118419524,
+      "risk": 0.3030402475359017,
+      "num_current_grads": 50
+    },
+    {
+      "step": 430,
+      "task_idx": 1,
+      "layer": "layers.2",
+      "conflict": 0.5030975232366472,
+      "fisher_weight": 0.004771052120336328,
+      "risk": 0.30376693479012284,
+      "num_current_grads": 50
+    },
+    {
+      "step": 430,
+      "task_idx": 1,
+      "layer": "layers.4",
+      "conflict": 0.5051372246816754,
+      "fisher_weight": 0.013601522181919528,
+      "risk": 0.3085229436817731,
+      "num_current_grads": 50
+    },
+    {
+      "step": 430,
+      "task_idx": 1,
+      "layer": "layers.6",
+      "conflict": 0.5000001192434524,
+      "fisher_weight": 1.0,
+      "risk": 0.7000000715460715,
+      "num_current_grads": 50
+    },
+    {
+      "step": 440,
+      "task_idx": 1,
+      "layer": "layers.0",
+      "conflict": 0.4928706595674157,
+      "fisher_weight": 0.010089668118419524,
+      "risk": 0.2997582629878172,
+      "num_current_grads": 50
+    },
+    {
+      "step": 440,
+      "task_idx": 1,
+      "layer": "layers.2",
+      "conflict": 0.4863422894850373,
+      "fisher_weight": 0.004771052120336328,
+      "risk": 0.2937137945391569,
+      "num_current_grads": 50
+    },
+    {
+      "step": 440,
+      "task_idx": 1,
+      "layer": "layers.4",
+      "conflict": 0.4832805413752794,
+      "fisher_weight": 0.013601522181919528,
+      "risk": 0.29540893369793547,
+      "num_current_grads": 50
+    },
+    {
+      "step": 440,
+      "task_idx": 1,
+      "layer": "layers.6",
+      "conflict": 0.5000010574414091,
+      "fisher_weight": 1.0,
+      "risk": 0.7000006344648455,
+      "num_current_grads": 50
+    },
+    {
+      "step": 450,
+      "task_idx": 1,
+      "layer": "layers.0",
+      "conflict": 0.49665568280033767,
+      "fisher_weight": 0.010089668118419524,
+      "risk": 0.3020292769275704,
+      "num_current_grads": 50
+    },
+    {
+      "step": 450,
+      "task_idx": 1,
+      "layer": "layers.2",
+      "conflict": 0.4930860842578113,
+      "fisher_weight": 0.004771052120336328,
+      "risk": 0.2977600714028213,
+      "num_current_grads": 50
+    },
+    {
+      "step": 450,
+      "task_idx": 1,
+      "layer": "layers.4",
+      "conflict": 0.49207647424191236,
+      "fisher_weight": 0.013601522181919528,
+      "risk": 0.3006864934179152,
+      "num_current_grads": 50
+    },
+    {
+      "step": 450,
+      "task_idx": 1,
+      "layer": "layers.6",
+      "conflict": 0.4999837060695427,
+      "fisher_weight": 1.0,
+      "risk": 0.6999902236417257,
+      "num_current_grads": 50
+    },
+    {
+      "step": 460,
+      "task_idx": 1,
+      "layer": "layers.0",
+      "conflict": 0.5089311441406608,
+      "fisher_weight": 0.010089668118419524,
+      "risk": 0.3093945537317643,
+      "num_current_grads": 50
+    },
+    {
+      "step": 460,
+      "task_idx": 1,
+      "layer": "layers.2",
+      "conflict": 0.4982443742919713,
+      "fisher_weight": 0.004771052120336328,
+      "risk": 0.3008550454233173,
+      "num_current_grads": 50
+    },
+    {
+      "step": 460,
+      "task_idx": 1,
+      "layer": "layers.4",
+      "conflict": 0.4966220282949507,
+      "fisher_weight": 0.013601522181919528,
+      "risk": 0.30341382584973825,
+      "num_current_grads": 50
+    },
+    {
+      "step": 460,
+      "task_idx": 1,
+      "layer": "layers.6",
+      "conflict": 0.5000016193513375,
+      "fisher_weight": 1.0,
+      "risk": 0.7000009716108024,
+      "num_current_grads": 50
+    },
+    {
+      "step": 470,
+      "task_idx": 1,
+      "layer": "layers.0",
+      "conflict": 0.5008075081277639,
+      "fisher_weight": 0.010089668118419524,
+      "risk": 0.3045203721240261,
+      "num_current_grads": 50
+    },
+    {
+      "step": 470,
+      "task_idx": 1,
+      "layer": "layers.2",
+      "conflict": 0.49847404030151665,
+      "fisher_weight": 0.004771052120336328,
+      "risk": 0.3009928450290445,
+      "num_current_grads": 50
+    },
+    {
+      "step": 470,
+      "task_idx": 1,
+      "layer": "layers.4",
+      "conflict": 0.4998627618479077,
+      "fisher_weight": 0.013601522181919528,
+      "risk": 0.3053582659815124,
+      "num_current_grads": 50
+    },
+    {
+      "step": 470,
+      "task_idx": 1,
+      "layer": "layers.6",
+      "conflict": 0.49999927536725863,
+      "fisher_weight": 1.0,
+      "risk": 0.6999995652203552,
+      "num_current_grads": 50
+    },
+    {
+      "step": 480,
+      "task_idx": 1,
+      "layer": "layers.0",
+      "conflict": 0.49567135283723474,
+      "fisher_weight": 0.010089668118419524,
+      "risk": 0.30143867894970866,
+      "num_current_grads": 50
+    },
+    {
+      "step": 480,
+      "task_idx": 1,
+      "layer": "layers.2",
+      "conflict": 0.4964778998401016,
+      "fisher_weight": 0.004771052120336328,
+      "risk": 0.2997951607521955,
+      "num_current_grads": 50
+    },
+    {
+      "step": 480,
+      "task_idx": 1,
+      "layer": "layers.4",
+      "conflict": 0.49523884477093816,
+      "fisher_weight": 0.013601522181919528,
+      "risk": 0.3025839157353307,
+      "num_current_grads": 50
+    },
+    {
+      "step": 480,
+      "task_idx": 1,
+      "layer": "layers.6",
+      "conflict": 0.49999883328666783,
+      "fisher_weight": 1.0,
+      "risk": 0.6999992999720007,
+      "num_current_grads": 50
+    },
+    {
+      "step": 490,
+      "task_idx": 1,
+      "layer": "layers.0",
+      "conflict": 0.5010012056445703,
+      "fisher_weight": 0.010089668118419524,
+      "risk": 0.30463659063410997,
+      "num_current_grads": 50
+    },
+    {
+      "step": 490,
+      "task_idx": 1,
+      "layer": "layers.2",
+      "conflict": 0.5015499017899856,
+      "fisher_weight": 0.004771052120336328,
+      "risk": 0.3028383619221259,
+      "num_current_grads": 50
+    },
+    {
+      "step": 490,
+      "task_idx": 1,
+      "layer": "layers.4",
+      "conflict": 0.5005076248198748,
+      "fisher_weight": 0.013601522181919528,
+      "risk": 0.3057451837646927,
+      "num_current_grads": 50
+    },
+    {
+      "step": 490,
+      "task_idx": 1,
+      "layer": "layers.6",
+      "conflict": 0.49999958836278324,
+      "fisher_weight": 1.0,
+      "risk": 0.69999975301767,
+      "num_current_grads": 50
+    },
+    {
+      "step": 500,
+      "task_idx": 1,
+      "layer": "layers.0",
+      "conflict": 0.502331760013476,
+      "fisher_weight": 0.010089668118419524,
+      "risk": 0.3054349232554534,
+      "num_current_grads": 50
+    },
+    {
+      "step": 500,
+      "task_idx": 1,
+      "layer": "layers.2",
+      "conflict": 0.5100243706256151,
+      "fisher_weight": 0.004771052120336328,
+      "risk": 0.3079230432235036,
+      "num_current_grads": 50
+    },
+    {
+      "step": 500,
+      "task_idx": 1,
+      "layer": "layers.4",
+      "conflict": 0.5109657915309072,
+      "fisher_weight": 0.013601522181919528,
+      "risk": 0.3120200837913121,
+      "num_current_grads": 50
+    },
+    {
+      "step": 500,
+      "task_idx": 1,
+      "layer": "layers.6",
+      "conflict": 0.4999978196963184,
+      "fisher_weight": 1.0,
+      "risk": 0.6999986918177911,
+      "num_current_grads": 50
+    },
+    {
+      "step": 510,
+      "task_idx": 1,
+      "layer": "layers.0",
+      "conflict": 0.49965006407001056,
+      "fisher_weight": 0.010089668118419524,
+      "risk": 0.3038259056893741,
+      "num_current_grads": 50
+    },
+    {
+      "step": 510,
+      "task_idx": 1,
+      "layer": "layers.2",
+      "conflict": 0.49983564217109233,
+      "fisher_weight": 0.004771052120336328,
+      "risk": 0.3018098061507899,
+      "num_current_grads": 50
+    },
+    {
+      "step": 510,
+      "task_idx": 1,
+      "layer": "layers.4",
+      "conflict": 0.5003031002124771,
+      "fisher_weight": 0.013601522181919528,
+      "risk": 0.3056224690002541,
+      "num_current_grads": 50
+    },
+    {
+      "step": 510,
+      "task_idx": 1,
+      "layer": "layers.6",
+      "conflict": 0.5000007968911859,
+      "fisher_weight": 1.0,
+      "risk": 0.7000004781347116,
+      "num_current_grads": 50
+    },
+    {
+      "step": 520,
+      "task_idx": 1,
+      "layer": "layers.0",
+      "conflict": 0.4904422489926219,
+      "fisher_weight": 0.010089668118419524,
+      "risk": 0.29830121664294096,
+      "num_current_grads": 50
+    },
+    {
+      "step": 520,
+      "task_idx": 1,
+      "layer": "layers.2",
+      "conflict": 0.483350295573473,
+      "fisher_weight": 0.004771052120336328,
+      "risk": 0.2919185981922183,
+      "num_current_grads": 50
+    },
+    {
+      "step": 520,
+      "task_idx": 1,
+      "layer": "layers.4",
+      "conflict": 0.48368717916309834,
+      "fisher_weight": 0.013601522181919528,
+      "risk": 0.2956529163706268,
+      "num_current_grads": 50
+    },
+    {
+      "step": 520,
+      "task_idx": 1,
+      "layer": "layers.6",
+      "conflict": 0.5000028694425964,
+      "fisher_weight": 1.0,
+      "risk": 0.7000017216655579,
+      "num_current_grads": 50
+    },
+    {
+      "step": 530,
+      "task_idx": 1,
+      "layer": "layers.0",
+      "conflict": 0.4963484301697463,
+      "fisher_weight": 0.010089668118419524,
+      "risk": 0.3018449253492156,
+      "num_current_grads": 50
+    },
+    {
+      "step": 530,
+      "task_idx": 1,
+      "layer": "layers.2",
+      "conflict": 0.504795671440661,
+      "fisher_weight": 0.004771052120336328,
+      "risk": 0.3047858237125311,
+      "num_current_grads": 50
+    },
+    {
+      "step": 530,
+      "task_idx": 1,
+      "layer": "layers.4",
+      "conflict": 0.5053837145678699,
+      "fisher_weight": 0.013601522181919528,
+      "risk": 0.30867083761348973,
+      "num_current_grads": 50
+    },
+    {
+      "step": 530,
+      "task_idx": 1,
+      "layer": "layers.6",
+      "conflict": 0.5000030290345876,
+      "fisher_weight": 1.0,
+      "risk": 0.7000018174207525,
+      "num_current_grads": 50
+    },
+    {
+      "step": 540,
+      "task_idx": 1,
+      "layer": "layers.0",
+      "conflict": 0.4937874199822545,
+      "fisher_weight": 0.010089668118419524,
+      "risk": 0.3003083192367205,
+      "num_current_grads": 50
+    },
+    {
+      "step": 540,
+      "task_idx": 1,
+      "layer": "layers.2",
+      "conflict": 0.489349695853889,
+      "fisher_weight": 0.004771052120336328,
+      "risk": 0.2955182383604679,
+      "num_current_grads": 50
+    },
+    {
+      "step": 540,
+      "task_idx": 1,
+      "layer": "layers.4",
+      "conflict": 0.4895550459623337,
+      "fisher_weight": 0.013601522181919528,
+      "risk": 0.29917363645016803,
+      "num_current_grads": 50
+    },
+    {
+      "step": 540,
+      "task_idx": 1,
+      "layer": "layers.6",
+      "conflict": 0.4999969790048908,
+      "fisher_weight": 1.0,
+      "risk": 0.6999981874029345,
+      "num_current_grads": 50
+    },
+    {
+      "step": 550,
+      "task_idx": 1,
+      "layer": "layers.0",
+      "conflict": 0.49985766543250065,
+      "fisher_weight": 0.010089668118419524,
+      "risk": 0.3039504665068682,
+      "num_current_grads": 50
+    },
+    {
+      "step": 550,
+      "task_idx": 1,
+      "layer": "layers.2",
+      "conflict": 0.5031022790353745,
+      "fisher_weight": 0.004771052120336328,
+      "risk": 0.30376978826935924,
+      "num_current_grads": 50
+    },
+    {
+      "step": 550,
+      "task_idx": 1,
+      "layer": "layers.4",
+      "conflict": 0.5032791651319712,
+      "fisher_weight": 0.013601522181919528,
+      "risk": 0.30740810795195056,
+      "num_current_grads": 50
+    },
+    {
+      "step": 550,
+      "task_idx": 1,
+      "layer": "layers.6",
+      "conflict": 0.500005967731795,
+      "fisher_weight": 1.0,
+      "risk": 0.700003580639077,
+      "num_current_grads": 50
+    },
+    {
+      "step": 560,
+      "task_idx": 1,
+      "layer": "layers.0",
+      "conflict": 0.496710003586486,
+      "fisher_weight": 0.010089668118419524,
+      "risk": 0.3020618693992594,
+      "num_current_grads": 50
+    },
+    {
+      "step": 560,
+      "task_idx": 1,
+      "layer": "layers.2",
+      "conflict": 0.4922527535818517,
+      "fisher_weight": 0.004771052120336328,
+      "risk": 0.29726007299724555,
+      "num_current_grads": 50
+    },
+    {
+      "step": 560,
+      "task_idx": 1,
+      "layer": "layers.4",
+      "conflict": 0.4922054801136255,
+      "fisher_weight": 0.013601522181919528,
+      "risk": 0.30076389694094313,
+      "num_current_grads": 50
+    },
+    {
+      "step": 560,
+      "task_idx": 1,
+      "layer": "layers.6",
+      "conflict": 0.5000001528917863,
+      "fisher_weight": 1.0,
+      "risk": 0.7000000917350718,
+      "num_current_grads": 50
+    },
+    {
+      "step": 570,
+      "task_idx": 2,
+      "layer": "layers.0",
+      "conflict": 0.47083981707692146,
+      "fisher_weight": 0.0064831904028845025,
+      "risk": 0.28509716640730665,
+      "num_current_grads": 6
+    },
+    {
+      "step": 570,
+      "task_idx": 2,
+      "layer": "layers.2",
+      "conflict": 0.45031455159187317,
+      "fisher_weight": 0.006514399785240753,
+      "risk": 0.2727944908692202,
+      "num_current_grads": 6
+    },
+    {
+      "step": 570,
+      "task_idx": 2,
+      "layer": "layers.4",
+      "conflict": 0.46693677827715874,
+      "fisher_weight": 0.013415324967089158,
+      "risk": 0.2855281969531309,
+      "num_current_grads": 6
+    },
+    {
+      "step": 570,
+      "task_idx": 2,
+      "layer": "layers.6",
+      "conflict": 0.4755990318953991,
+      "fisher_weight": 1.0,
+      "risk": 0.6853594191372394,
+      "num_current_grads": 6
+    },
+    {
+      "step": 580,
+      "task_idx": 2,
+      "layer": "layers.0",
+      "conflict": 0.5015019400743768,
+      "fisher_weight": 0.0064831904028845025,
+      "risk": 0.3034944402057798,
+      "num_current_grads": 16
+    },
+    {
+      "step": 580,
+      "task_idx": 2,
+      "layer": "layers.2",
+      "conflict": 0.5022864264901727,
+      "fisher_weight": 0.006514399785240753,
+      "risk": 0.30397761580819993,
+      "num_current_grads": 16
+    },
+    {
+      "step": 580,
+      "task_idx": 2,
+      "layer": "layers.4",
+      "conflict": 0.5018687926931307,
+      "fisher_weight": 0.013415324967089158,
+      "risk": 0.30648740560271404,
+      "num_current_grads": 16
+    },
+    {
+      "step": 580,
+      "task_idx": 2,
+      "layer": "layers.6",
+      "conflict": 0.5002880683459807,
+      "fisher_weight": 1.0,
+      "risk": 0.7001728410075885,
+      "num_current_grads": 16
+    },
+    {
+      "step": 590,
+      "task_idx": 2,
+      "layer": "layers.0",
+      "conflict": 0.5027505261823535,
+      "fisher_weight": 0.0064831904028845025,
+      "risk": 0.3042435918705659,
+      "num_current_grads": 26
+    },
+    {
+      "step": 590,
+      "task_idx": 2,
+      "layer": "layers.2",
+      "conflict": 0.5008723466889933,
+      "fisher_weight": 0.006514399785240753,
+      "risk": 0.3031291679274922,
+      "num_current_grads": 26
+    },
+    {
+      "step": 590,
+      "task_idx": 2,
+      "layer": "layers.4",
+      "conflict": 0.5002926431479864,
+      "fisher_weight": 0.013415324967089158,
+      "risk": 0.3055417158756275,
+      "num_current_grads": 26
+    },
+    {
+      "step": 590,
+      "task_idx": 2,
+      "layer": "layers.6",
+      "conflict": 0.49999828220109066,
+      "fisher_weight": 1.0,
+      "risk": 0.6999989693206544,
+      "num_current_grads": 26
+    },
+    {
+      "step": 600,
+      "task_idx": 2,
+      "layer": "layers.0",
+      "conflict": 0.5052270437590778,
+      "fisher_weight": 0.0064831904028845025,
+      "risk": 0.30572950241660046,
+      "num_current_grads": 36
+    },
+    {
+      "step": 600,
+      "task_idx": 2,
+      "layer": "layers.2",
+      "conflict": 0.4992965626879595,
+      "fisher_weight": 0.006514399785240753,
+      "risk": 0.30218369752687196,
+      "num_current_grads": 36
+    },
+    {
+      "step": 600,
+      "task_idx": 2,
+      "layer": "layers.4",
+      "conflict": 0.4899885430932045,
+      "fisher_weight": 0.013415324967089158,
+      "risk": 0.29935925584275835,
+      "num_current_grads": 36
+    },
+    {
+      "step": 600,
+      "task_idx": 2,
+      "layer": "layers.6",
+      "conflict": 0.4999999697607542,
+      "fisher_weight": 1.0,
+      "risk": 0.6999999818564526,
+      "num_current_grads": 36
+    },
+    {
+      "step": 610,
+      "task_idx": 2,
+      "layer": "layers.0",
+      "conflict": 0.5012797863455489,
+      "fisher_weight": 0.0064831904028845025,
+      "risk": 0.3033611479684831,
+      "num_current_grads": 46
+    },
+    {
+      "step": 610,
+      "task_idx": 2,
+      "layer": "layers.2",
+      "conflict": 0.5013109509600326,
+      "fisher_weight": 0.006514399785240753,
+      "risk": 0.3033923304901159,
+      "num_current_grads": 46
+    },
+    {
+      "step": 610,
+      "task_idx": 2,
+      "layer": "layers.4",
+      "conflict": 0.5028626455459744,
+      "fisher_weight": 0.013415324967089158,
+      "risk": 0.3070837173144203,
+      "num_current_grads": 46
+    },
+    {
+      "step": 610,
+      "task_idx": 2,
+      "layer": "layers.6",
+      "conflict": 0.500000417905909,
+      "fisher_weight": 1.0,
+      "risk": 0.7000002507435454,
+      "num_current_grads": 46
+    },
+    {
+      "step": 620,
+      "task_idx": 2,
+      "layer": "layers.0",
+      "conflict": 0.5017538921674713,
+      "fisher_weight": 0.0064831904028845025,
+      "risk": 0.3036456114616366,
+      "num_current_grads": 50
+    },
+    {
+      "step": 620,
+      "task_idx": 2,
+      "layer": "layers.2",
+      "conflict": 0.4982895746361464,
+      "fisher_weight": 0.006514399785240753,
+      "risk": 0.30157950469578415,
+      "num_current_grads": 50
+    },
+    {
+      "step": 620,
+      "task_idx": 2,
+      "layer": "layers.4",
+      "conflict": 0.497330553131178,
+      "fisher_weight": 0.013415324967089158,
+      "risk": 0.30376446186554246,
+      "num_current_grads": 50
+    },
+    {
+      "step": 620,
+      "task_idx": 2,
+      "layer": "layers.6",
+      "conflict": 0.49999918792377684,
+      "fisher_weight": 1.0,
+      "risk": 0.6999995127542662,
+      "num_current_grads": 50
+    },
+    {
+      "step": 630,
+      "task_idx": 2,
+      "layer": "layers.0",
+      "conflict": 0.4951260033994913,
+      "fisher_weight": 0.0064831904028845025,
+      "risk": 0.2996688782008486,
+      "num_current_grads": 50
+    },
+    {
+      "step": 630,
+      "task_idx": 2,
+      "layer": "layers.2",
+      "conflict": 0.5055143958888948,
+      "fisher_weight": 0.006514399785240753,
+      "risk": 0.30591439744743315,
+      "num_current_grads": 50
+    },
+    {
+      "step": 630,
+      "task_idx": 2,
+      "layer": "layers.4",
+      "conflict": 0.5077832215465605,
+      "fisher_weight": 0.013415324967089158,
+      "risk": 0.310036062914772,
+      "num_current_grads": 50
+    },
+    {
+      "step": 630,
+      "task_idx": 2,
+      "layer": "layers.6",
+      "conflict": 0.49999889804394115,
+      "fisher_weight": 1.0,
+      "risk": 0.6999993388263648,
+      "num_current_grads": 50
+    },
+    {
+      "step": 640,
+      "task_idx": 2,
+      "layer": "layers.0",
+      "conflict": 0.4992569799651392,
+      "fisher_weight": 0.0064831904028845025,
+      "risk": 0.3021474641402373,
+      "num_current_grads": 50
+    },
+    {
+      "step": 640,
+      "task_idx": 2,
+      "layer": "layers.2",
+      "conflict": 0.49881641240790486,
+      "fisher_weight": 0.006514399785240753,
+      "risk": 0.3018956073588392,
+      "num_current_grads": 50
+    },
+    {
+      "step": 640,
+      "task_idx": 2,
+      "layer": "layers.4",
+      "conflict": 0.5010414971038699,
+      "fisher_weight": 0.013415324967089158,
+      "risk": 0.3059910282491576,
+      "num_current_grads": 50
+    },
+    {
+      "step": 640,
+      "task_idx": 2,
+      "layer": "layers.6",
+      "conflict": 0.5000001463164807,
+      "fisher_weight": 1.0,
+      "risk": 0.7000000877898884,
+      "num_current_grads": 50
+    },
+    {
+      "step": 650,
+      "task_idx": 2,
+      "layer": "layers.0",
+      "conflict": 0.5036244729999453,
+      "fisher_weight": 0.0064831904028845025,
+      "risk": 0.30476795996112094,
+      "num_current_grads": 50
+    },
+    {
+      "step": 650,
+      "task_idx": 2,
+      "layer": "layers.2",
+      "conflict": 0.49877383827697486,
+      "fisher_weight": 0.006514399785240753,
+      "risk": 0.3018700628802812,
+      "num_current_grads": 50
+    },
+    {
+      "step": 650,
+      "task_idx": 2,
+      "layer": "layers.4",
+      "conflict": 0.4972528819926083,
+      "fisher_weight": 0.013415324967089158,
+      "risk": 0.30371785918240063,
+      "num_current_grads": 50
+    },
+    {
+      "step": 650,
+      "task_idx": 2,
+      "layer": "layers.6",
+      "conflict": 0.49999955288444653,
+      "fisher_weight": 1.0,
+      "risk": 0.6999997317306679,
+      "num_current_grads": 50
+    },
+    {
+      "step": 660,
+      "task_idx": 2,
+      "layer": "layers.0",
+      "conflict": 0.4971047274302691,
+      "fisher_weight": 0.0064831904028845025,
+      "risk": 0.3008561126193153,
+      "num_current_grads": 50
+    },
+    {
+      "step": 660,
+      "task_idx": 2,
+      "layer": "layers.2",
+      "conflict": 0.5017418375937268,
+      "fisher_weight": 0.006514399785240753,
+      "risk": 0.30365086247033235,
+      "num_current_grads": 50
+    },
+    {
+      "step": 660,
+      "task_idx": 2,
+      "layer": "layers.4",
+      "conflict": 0.5021716754417866,
+      "fisher_weight": 0.013415324967089158,
+      "risk": 0.30666913525190764,
+      "num_current_grads": 50
+    },
+    {
+      "step": 660,
+      "task_idx": 2,
+      "layer": "layers.6",
+      "conflict": 0.5000000271309855,
+      "fisher_weight": 1.0,
+      "risk": 0.7000000162785913,
+      "num_current_grads": 50
+    },
+    {
+      "step": 670,
+      "task_idx": 2,
+      "layer": "layers.0",
+      "conflict": 0.4989102511899546,
+      "fisher_weight": 0.0064831904028845025,
+      "risk": 0.30193942687512654,
+      "num_current_grads": 50
+    },
+    {
+      "step": 670,
+      "task_idx": 2,
+      "layer": "layers.2",
+      "conflict": 0.5020271872635931,
+      "fisher_weight": 0.006514399785240753,
+      "risk": 0.3038220722722521,
+      "num_current_grads": 50
+    },
+    {
+      "step": 670,
+      "task_idx": 2,
+      "layer": "layers.4",
+      "conflict": 0.5042717545293272,
+      "fisher_weight": 0.013415324967089158,
+      "risk": 0.3079291827044319,
+      "num_current_grads": 50
+    },
+    {
+      "step": 670,
+      "task_idx": 2,
+      "layer": "layers.6",
+      "conflict": 0.49999994319259145,
+      "fisher_weight": 1.0,
+      "risk": 0.6999999659155549,
+      "num_current_grads": 50
+    },
+    {
+      "step": 680,
+      "task_idx": 2,
+      "layer": "layers.0",
+      "conflict": 0.4995239021081943,
+      "fisher_weight": 0.0064831904028845025,
+      "risk": 0.3023076174260704,
+      "num_current_grads": 50
+    },
+    {
+      "step": 680,
+      "task_idx": 2,
+      "layer": "layers.2",
+      "conflict": 0.5016661442350596,
+      "fisher_weight": 0.006514399785240753,
+      "risk": 0.30360544645513204,
+      "num_current_grads": 50
+    },
+    {
+      "step": 680,
+      "task_idx": 2,
+      "layer": "layers.4",
+      "conflict": 0.5039257765747607,
+      "fisher_weight": 0.013415324967089158,
+      "risk": 0.30772159593169207,
+      "num_current_grads": 50
+    },
+    {
+      "step": 680,
+      "task_idx": 2,
+      "layer": "layers.6",
+      "conflict": 0.4999998852447973,
+      "fisher_weight": 1.0,
+      "risk": 0.6999999311468784,
+      "num_current_grads": 50
+    },
+    {
+      "step": 690,
+      "task_idx": 2,
+      "layer": "layers.0",
+      "conflict": 0.4996076644747518,
+      "fisher_weight": 0.0064831904028845025,
+      "risk": 0.30235787484600485,
+      "num_current_grads": 50
+    },
+    {
+      "step": 690,
+      "task_idx": 2,
+      "layer": "layers.2",
+      "conflict": 0.4958360022865236,
+      "fisher_weight": 0.006514399785240753,
+      "risk": 0.3001073612860104,
+      "num_current_grads": 50
+    },
+    {
+      "step": 690,
+      "task_idx": 2,
+      "layer": "layers.4",
+      "conflict": 0.5014858971117064,
+      "fisher_weight": 0.013415324967089158,
+      "risk": 0.3062576682538595,
+      "num_current_grads": 50
+    },
+    {
+      "step": 690,
+      "task_idx": 2,
+      "layer": "layers.6",
+      "conflict": 0.5000001086384529,
+      "fisher_weight": 1.0,
+      "risk": 0.7000000651830718,
+      "num_current_grads": 50
+    },
+    {
+      "step": 700,
+      "task_idx": 2,
+      "layer": "layers.0",
+      "conflict": 0.4987920015119016,
+      "fisher_weight": 0.0064831904028845025,
+      "risk": 0.3018684770682947,
+      "num_current_grads": 50
+    },
+    {
+      "step": 700,
+      "task_idx": 2,
+      "layer": "layers.2",
+      "conflict": 0.5013019815087318,
+      "fisher_weight": 0.006514399785240753,
+      "risk": 0.30338694881933537,
+      "num_current_grads": 50
+    },
+    {
+      "step": 700,
+      "task_idx": 2,
+      "layer": "layers.4",
+      "conflict": 0.5035581481643021,
+      "fisher_weight": 0.013415324967089158,
+      "risk": 0.3075010188854169,
+      "num_current_grads": 50
+    },
+    {
+      "step": 700,
+      "task_idx": 2,
+      "layer": "layers.6",
+      "conflict": 0.49999989159385905,
+      "fisher_weight": 1.0,
+      "risk": 0.6999999349563155,
+      "num_current_grads": 50
+    },
+    {
+      "step": 710,
+      "task_idx": 2,
+      "layer": "layers.0",
+      "conflict": 0.5007101676892489,
+      "fisher_weight": 0.0064831904028845025,
+      "risk": 0.30301937677470314,
+      "num_current_grads": 50
+    },
+    {
+      "step": 710,
+      "task_idx": 2,
+      "layer": "layers.2",
+      "conflict": 0.5012030602665618,
+      "fisher_weight": 0.006514399785240753,
+      "risk": 0.30332759607403337,
+      "num_current_grads": 50
+    },
+    {
+      "step": 710,
+      "task_idx": 2,
+      "layer": "layers.4",
+      "conflict": 0.49916694895364344,
+      "fisher_weight": 0.013415324967089158,
+      "risk": 0.3048662993590217,
+      "num_current_grads": 50
+    },
+    {
+      "step": 710,
+      "task_idx": 2,
+      "layer": "layers.6",
+      "conflict": 0.5000001590582599,
+      "fisher_weight": 1.0,
+      "risk": 0.7000000954349559,
+      "num_current_grads": 50
+    },
+    {
+      "step": 720,
+      "task_idx": 2,
+      "layer": "layers.0",
+      "conflict": 0.49854093603789806,
+      "fisher_weight": 0.0064831904028845025,
+      "risk": 0.3017178377838926,
+      "num_current_grads": 50
+    },
+    {
+      "step": 720,
+      "task_idx": 2,
+      "layer": "layers.2",
+      "conflict": 0.4998682504374301,
+      "fisher_weight": 0.006514399785240753,
+      "risk": 0.30252671017655436,
+      "num_current_grads": 50
+    },
+    {
+      "step": 720,
+      "task_idx": 2,
+      "layer": "layers.4",
+      "conflict": 0.5010902902577072,
+      "fisher_weight": 0.013415324967089158,
+      "risk": 0.30602030414146,
+      "num_current_grads": 50
+    },
+    {
+      "step": 720,
+      "task_idx": 2,
+      "layer": "layers.6",
+      "conflict": 0.4999997584794471,
+      "fisher_weight": 1.0,
+      "risk": 0.6999998550876683,
+      "num_current_grads": 50
+    },
+    {
+      "step": 730,
+      "task_idx": 2,
+      "layer": "layers.0",
+      "conflict": 0.4967023469507694,
+      "fisher_weight": 0.0064831904028845025,
+      "risk": 0.3006146843316154,
+      "num_current_grads": 50
+    },
+    {
+      "step": 730,
+      "task_idx": 2,
+      "layer": "layers.2",
+      "conflict": 0.5011865523410961,
+      "fisher_weight": 0.006514399785240753,
+      "risk": 0.3033176913187539,
+      "num_current_grads": 50
+    },
+    {
+      "step": 730,
+      "task_idx": 2,
+      "layer": "layers.4",
+      "conflict": 0.501905485522002,
+      "fisher_weight": 0.013415324967089158,
+      "risk": 0.30650942130003683,
+      "num_current_grads": 50
+    },
+    {
+      "step": 730,
+      "task_idx": 2,
+      "layer": "layers.6",
+      "conflict": 0.49999975627744675,
+      "fisher_weight": 1.0,
+      "risk": 0.699999853766468,
+      "num_current_grads": 50
+    },
+    {
+      "step": 740,
+      "task_idx": 2,
+      "layer": "layers.0",
+      "conflict": 0.4910413473844528,
+      "fisher_weight": 0.0064831904028845025,
+      "risk": 0.29721808459182547,
+      "num_current_grads": 50
+    },
+    {
+      "step": 740,
+      "task_idx": 2,
+      "layer": "layers.2",
+      "conflict": 0.5007632528431714,
+      "fisher_weight": 0.006514399785240753,
+      "risk": 0.30306371161999907,
+      "num_current_grads": 50
+    },
+    {
+      "step": 740,
+      "task_idx": 2,
+      "layer": "layers.4",
+      "conflict": 0.501817338517867,
+      "fisher_weight": 0.013415324967089158,
+      "risk": 0.3064565330975559,
+      "num_current_grads": 50
+    },
+    {
+      "step": 740,
+      "task_idx": 2,
+      "layer": "layers.6",
+      "conflict": 0.49999954285306103,
+      "fisher_weight": 1.0,
+      "risk": 0.6999997257118367,
+      "num_current_grads": 50
+    },
+    {
+      "step": 750,
+      "task_idx": 2,
+      "layer": "layers.0",
+      "conflict": 0.49813442945014685,
+      "fisher_weight": 0.0064831904028845025,
+      "risk": 0.3014739338312419,
+      "num_current_grads": 50
+    },
+    {
+      "step": 750,
+      "task_idx": 2,
+      "layer": "layers.2",
+      "conflict": 0.5021841903217137,
+      "fisher_weight": 0.006514399785240753,
+      "risk": 0.30391627410712446,
+      "num_current_grads": 50
+    },
+    {
+      "step": 750,
+      "task_idx": 2,
+      "layer": "layers.4",
+      "conflict": 0.5006788664031774,
+      "fisher_weight": 0.013415324967089158,
+      "risk": 0.3057734498287421,
+      "num_current_grads": 50
+    },
+    {
+      "step": 750,
+      "task_idx": 2,
+      "layer": "layers.6",
+      "conflict": 0.5000009546320143,
+      "fisher_weight": 1.0,
+      "risk": 0.7000005727792087,
+      "num_current_grads": 50
+    },
+    {
+      "step": 760,
+      "task_idx": 2,
+      "layer": "layers.0",
+      "conflict": 0.4828947205096483,
+      "fisher_weight": 0.0064831904028845025,
+      "risk": 0.2923301084669428,
+      "num_current_grads": 50
+    },
+    {
+      "step": 760,
+      "task_idx": 2,
+      "layer": "layers.2",
+      "conflict": 0.5024537316057831,
+      "fisher_weight": 0.006514399785240753,
+      "risk": 0.30407799887756615,
+      "num_current_grads": 50
+    },
+    {
+      "step": 760,
+      "task_idx": 2,
+      "layer": "layers.4",
+      "conflict": 0.506057916674763,
+      "fisher_weight": 0.013415324967089158,
+      "risk": 0.30900087999169346,
+      "num_current_grads": 50
+    },
+    {
+      "step": 760,
+      "task_idx": 2,
+      "layer": "layers.6",
+      "conflict": 0.4999993283611275,
+      "fisher_weight": 1.0,
+      "risk": 0.6999995970166766,
+      "num_current_grads": 50
+    },
+    {
+      "step": 770,
+      "task_idx": 2,
+      "layer": "layers.0",
+      "conflict": 0.50090492767049,
+      "fisher_weight": 0.0064831904028845025,
+      "risk": 0.30313623276344775,
+      "num_current_grads": 50
+    },
+    {
+      "step": 770,
+      "task_idx": 2,
+      "layer": "layers.2",
+      "conflict": 0.4981066263280809,
+      "fisher_weight": 0.006514399785240753,
+      "risk": 0.3014697357109448,
+      "num_current_grads": 50
+    },
+    {
+      "step": 770,
+      "task_idx": 2,
+      "layer": "layers.4",
+      "conflict": 0.49709029542282224,
+      "fisher_weight": 0.013415324967089158,
+      "risk": 0.303620307240529,
+      "num_current_grads": 50
+    },
+    {
+      "step": 770,
+      "task_idx": 2,
+      "layer": "layers.6",
+      "conflict": 0.5000000663314523,
+      "fisher_weight": 1.0,
+      "risk": 0.7000000397988715,
+      "num_current_grads": 50
+    },
+    {
+      "step": 780,
+      "task_idx": 2,
+      "layer": "layers.0",
+      "conflict": 0.506783892866224,
+      "fisher_weight": 0.0064831904028845025,
+      "risk": 0.3066636118808882,
+      "num_current_grads": 50
+    },
+    {
+      "step": 780,
+      "task_idx": 2,
+      "layer": "layers.2",
+      "conflict": 0.4974408440757543,
+      "fisher_weight": 0.006514399785240753,
+      "risk": 0.30107026635954887,
+      "num_current_grads": 50
+    },
+    {
+      "step": 780,
+      "task_idx": 2,
+      "layer": "layers.4",
+      "conflict": 0.49036127887666225,
+      "fisher_weight": 0.013415324967089158,
+      "risk": 0.299582897312833,
+      "num_current_grads": 50
+    },
+    {
+      "step": 780,
+      "task_idx": 2,
+      "layer": "layers.6",
+      "conflict": 0.5000004835951586,
+      "fisher_weight": 1.0,
+      "risk": 0.7000002901570952,
+      "num_current_grads": 50
+    },
+    {
+      "step": 790,
+      "task_idx": 2,
+      "layer": "layers.0",
+      "conflict": 0.49991954537836136,
+      "fisher_weight": 0.0064831904028845025,
+      "risk": 0.3025450033881706,
+      "num_current_grads": 50
+    },
+    {
+      "step": 790,
+      "task_idx": 2,
+      "layer": "layers.2",
+      "conflict": 0.5009856461547315,
+      "fisher_weight": 0.006514399785240753,
+      "risk": 0.30319714760693517,
+      "num_current_grads": 50
+    },
+    {
+      "step": 790,
+      "task_idx": 2,
+      "layer": "layers.4",
+      "conflict": 0.500965295068454,
+      "fisher_weight": 0.013415324967089158,
+      "risk": 0.30594530702790806,
+      "num_current_grads": 50
+    },
+    {
+      "step": 790,
+      "task_idx": 2,
+      "layer": "layers.6",
+      "conflict": 0.5000044857383728,
+      "fisher_weight": 1.0,
+      "risk": 0.7000026914430237,
+      "num_current_grads": 50
+    },
+    {
+      "step": 800,
+      "task_idx": 2,
+      "layer": "layers.0",
+      "conflict": 0.5033706587273628,
+      "fisher_weight": 0.0064831904028845025,
+      "risk": 0.30461567139757145,
+      "num_current_grads": 50
+    },
+    {
+      "step": 800,
+      "task_idx": 2,
+      "layer": "layers.2",
+      "conflict": 0.499178025231231,
+      "fisher_weight": 0.006514399785240753,
+      "risk": 0.3021125750528349,
+      "num_current_grads": 50
+    },
+    {
+      "step": 800,
+      "task_idx": 2,
+      "layer": "layers.4",
+      "conflict": 0.4979541308712214,
+      "fisher_weight": 0.013415324967089158,
+      "risk": 0.30413860850956853,
+      "num_current_grads": 50
+    },
+    {
+      "step": 800,
+      "task_idx": 2,
+      "layer": "layers.6",
+      "conflict": 0.5000021174423637,
+      "fisher_weight": 1.0,
+      "risk": 0.7000012704654182,
+      "num_current_grads": 50
+    },
+    {
+      "step": 810,
+      "task_idx": 2,
+      "layer": "layers.0",
+      "conflict": 0.5023463096003979,
+      "fisher_weight": 0.0064831904028845025,
+      "risk": 0.30400106192139253,
+      "num_current_grads": 50
+    },
+    {
+      "step": 810,
+      "task_idx": 2,
+      "layer": "layers.2",
+      "conflict": 0.49936981446808204,
+      "fisher_weight": 0.006514399785240753,
+      "risk": 0.3022276485949455,
+      "num_current_grads": 50
+    },
+    {
+      "step": 810,
+      "task_idx": 2,
+      "layer": "layers.4",
+      "conflict": 0.5012685748515651,
+      "fisher_weight": 0.013415324967089158,
+      "risk": 0.3061272748977747,
+      "num_current_grads": 50
+    },
+    {
+      "step": 810,
+      "task_idx": 2,
+      "layer": "layers.6",
+      "conflict": 0.5000004651635948,
+      "fisher_weight": 1.0,
+      "risk": 0.7000002790981569,
+      "num_current_grads": 50
+    },
+    {
+      "step": 820,
+      "task_idx": 2,
+      "layer": "layers.0",
+      "conflict": 0.50036599120358,
+      "fisher_weight": 0.0064831904028845025,
+      "risk": 0.30281287088330183,
+      "num_current_grads": 50
+    },
+    {
+      "step": 820,
+      "task_idx": 2,
+      "layer": "layers.2",
+      "conflict": 0.4995074039325118,
+      "fisher_weight": 0.006514399785240753,
+      "risk": 0.30231020227360333,
+      "num_current_grads": 50
+    },
+    {
+      "step": 820,
+      "task_idx": 2,
+      "layer": "layers.4",
+      "conflict": 0.5000897795325727,
+      "fisher_weight": 0.013415324967089158,
+      "risk": 0.3054199977063793,
+      "num_current_grads": 50
+    },
+    {
+      "step": 820,
+      "task_idx": 2,
+      "layer": "layers.6",
+      "conflict": 0.49999492589859074,
+      "fisher_weight": 1.0,
+      "risk": 0.6999969555391545,
+      "num_current_grads": 50
+    },
+    {
+      "step": 830,
+      "task_idx": 2,
+      "layer": "layers.0",
+      "conflict": 0.5016754048410803,
+      "fisher_weight": 0.0064831904028845025,
+      "risk": 0.303598519065802,
+      "num_current_grads": 50
+    },
+    {
+      "step": 830,
+      "task_idx": 2,
+      "layer": "layers.2",
+      "conflict": 0.5012041217414662,
+      "fisher_weight": 0.006514399785240753,
+      "risk": 0.303328232958976,
+      "num_current_grads": 50
+    },
+    {
+      "step": 830,
+      "task_idx": 2,
+      "layer": "layers.4",
+      "conflict": 0.4963096606079489,
+      "fisher_weight": 0.013415324967089158,
+      "risk": 0.303151926351605,
+      "num_current_grads": 50
+    },
+    {
+      "step": 830,
+      "task_idx": 2,
+      "layer": "layers.6",
+      "conflict": 0.4999979103899932,
+      "fisher_weight": 1.0,
+      "risk": 0.6999987462339959,
+      "num_current_grads": 50
+    },
+    {
+      "step": 840,
+      "task_idx": 2,
+      "layer": "layers.0",
+      "conflict": 0.4996469467296265,
+      "fisher_weight": 0.0064831904028845025,
+      "risk": 0.3023814441989297,
+      "num_current_grads": 50
+    },
+    {
+      "step": 840,
+      "task_idx": 2,
+      "layer": "layers.2",
+      "conflict": 0.5003037140413653,
+      "fisher_weight": 0.006514399785240753,
+      "risk": 0.30278798833891546,
+      "num_current_grads": 50
+    },
+    {
+      "step": 840,
+      "task_idx": 2,
+      "layer": "layers.4",
+      "conflict": 0.5010105239925906,
+      "fisher_weight": 0.013415324967089158,
+      "risk": 0.30597244438239,
+      "num_current_grads": 50
+    },
+    {
+      "step": 840,
+      "task_idx": 2,
+      "layer": "layers.6",
+      "conflict": 0.5000002744987171,
+      "fisher_weight": 1.0,
+      "risk": 0.7000001646992302,
+      "num_current_grads": 50
+    },
+    {
+      "step": 850,
+      "task_idx": 3,
+      "layer": "layers.0",
+      "conflict": 0.5030316452030092,
+      "fisher_weight": 0.0064496993175431885,
+      "risk": 0.30439886684882284,
+      "num_current_grads": 4
+    },
+    {
+      "step": 850,
+      "task_idx": 3,
+      "layer": "layers.2",
+      "conflict": 0.4972482540179044,
+      "fisher_weight": 0.00645741143759886,
+      "risk": 0.30093191698578214,
+      "num_current_grads": 4
+    },
+    {
+      "step": 850,
+      "task_idx": 3,
+      "layer": "layers.4",
+      "conflict": 0.5040129227563739,
+      "fisher_weight": 0.013431060356969332,
+      "risk": 0.30778017779661204,
+      "num_current_grads": 4
+    },
+    {
+      "step": 850,
+      "task_idx": 3,
+      "layer": "layers.6",
+      "conflict": 0.5020995277445763,
+      "fisher_weight": 1.0,
+      "risk": 0.7012597166467458,
+      "num_current_grads": 4
+    },
+    {
+      "step": 860,
+      "task_idx": 3,
+      "layer": "layers.0",
+      "conflict": 0.500943313643802,
+      "fisher_weight": 0.0064496993175431885,
+      "risk": 0.30314586791329845,
+      "num_current_grads": 14
+    },
+    {
+      "step": 860,
+      "task_idx": 3,
+      "layer": "layers.2",
+      "conflict": 0.5018978181760758,
+      "fisher_weight": 0.00645741143759886,
+      "risk": 0.303721655480685,
+      "num_current_grads": 14
+    },
+    {
+      "step": 860,
+      "task_idx": 3,
+      "layer": "layers.4",
+      "conflict": 0.496902966639027,
+      "fisher_weight": 0.013431060356969332,
+      "risk": 0.3035142041262039,
+      "num_current_grads": 14
+    },
+    {
+      "step": 860,
+      "task_idx": 3,
+      "layer": "layers.6",
+      "conflict": 0.49849039397668093,
+      "fisher_weight": 1.0,
+      "risk": 0.6990942363860086,
+      "num_current_grads": 14
+    },
+    {
+      "step": 870,
+      "task_idx": 3,
+      "layer": "layers.0",
+      "conflict": 0.5016744618769735,
+      "fisher_weight": 0.0064496993175431885,
+      "risk": 0.3035845568532014,
+      "num_current_grads": 24
+    },
+    {
+      "step": 870,
+      "task_idx": 3,
+      "layer": "layers.2",
+      "conflict": 0.5009251729934476,
+      "fisher_weight": 0.00645741143759886,
+      "risk": 0.3031380683711081,
+      "num_current_grads": 24
+    },
+    {
+      "step": 870,
+      "task_idx": 3,
+      "layer": "layers.4",
+      "conflict": 0.502398744923994,
+      "fisher_weight": 0.013431060356969332,
+      "risk": 0.30681167109718405,
+      "num_current_grads": 24
+    },
+    {
+      "step": 870,
+      "task_idx": 3,
+      "layer": "layers.6",
+      "conflict": 0.4999921926555544,
+      "fisher_weight": 1.0,
+      "risk": 0.6999953155933327,
+      "num_current_grads": 24
+    },
+    {
+      "step": 880,
+      "task_idx": 3,
+      "layer": "layers.0",
+      "conflict": 0.5002753011358436,
+      "fisher_weight": 0.0064496993175431885,
+      "risk": 0.30274506040852345,
+      "num_current_grads": 34
+    },
+    {
+      "step": 880,
+      "task_idx": 3,
+      "layer": "layers.2",
+      "conflict": 0.4959964253939688,
+      "fisher_weight": 0.00645741143759886,
+      "risk": 0.3001808198114208,
+      "num_current_grads": 34
+    },
+    {
+      "step": 880,
+      "task_idx": 3,
+      "layer": "layers.4",
+      "conflict": 0.49744946393184364,
+      "fisher_weight": 0.013431060356969332,
+      "risk": 0.30384210250189386,
+      "num_current_grads": 34
+    },
+    {
+      "step": 880,
+      "task_idx": 3,
+      "layer": "layers.6",
+      "conflict": 0.4999949700659272,
+      "fisher_weight": 1.0,
+      "risk": 0.6999969820395564,
+      "num_current_grads": 34
+    },
+    {
+      "step": 890,
+      "task_idx": 3,
+      "layer": "layers.0",
+      "conflict": 0.5032355235889554,
+      "fisher_weight": 0.0064496993175431885,
+      "risk": 0.3045211938803905,
+      "num_current_grads": 44
+    },
+    {
+      "step": 890,
+      "task_idx": 3,
+      "layer": "layers.2",
+      "conflict": 0.5029220215510577,
+      "fisher_weight": 0.00645741143759886,
+      "risk": 0.30433617750567415,
+      "num_current_grads": 44
+    },
+    {
+      "step": 890,
+      "task_idx": 3,
+      "layer": "layers.4",
+      "conflict": 0.5044915755279362,
+      "fisher_weight": 0.013431060356969332,
+      "risk": 0.30806736945954943,
+      "num_current_grads": 44
+    },
+    {
+      "step": 890,
+      "task_idx": 3,
+      "layer": "layers.6",
+      "conflict": 0.49999395090799226,
+      "fisher_weight": 1.0,
+      "risk": 0.6999963705447954,
+      "num_current_grads": 44
+    },
+    {
+      "step": 900,
+      "task_idx": 3,
+      "layer": "layers.0",
+      "conflict": 0.5063444240950048,
+      "fisher_weight": 0.0064496993175431885,
+      "risk": 0.3063865341840202,
+      "num_current_grads": 50
+    },
+    {
+      "step": 900,
+      "task_idx": 3,
+      "layer": "layers.2",
+      "conflict": 0.5099623464047909,
+      "fisher_weight": 0.00645741143759886,
+      "risk": 0.30856037241791406,
+      "num_current_grads": 50
+    },
+    {
+      "step": 900,
+      "task_idx": 3,
+      "layer": "layers.4",
+      "conflict": 0.5115338200703263,
+      "fisher_weight": 0.013431060356969332,
+      "risk": 0.3122927161849835,
+      "num_current_grads": 50
+    },
+    {
+      "step": 900,
+      "task_idx": 3,
+      "layer": "layers.6",
+      "conflict": 0.5000020343961751,
+      "fisher_weight": 1.0,
+      "risk": 0.7000012206377051,
+      "num_current_grads": 50
+    },
+    {
+      "step": 910,
+      "task_idx": 3,
+      "layer": "layers.0",
+      "conflict": 0.5010749724460766,
+      "fisher_weight": 0.0064496993175431885,
+      "risk": 0.30322486319466324,
+      "num_current_grads": 50
+    },
+    {
+      "step": 910,
+      "task_idx": 3,
+      "layer": "layers.2",
+      "conflict": 0.501029699575156,
+      "fisher_weight": 0.00645741143759886,
+      "risk": 0.3032007843201331,
+      "num_current_grads": 50
+    },
+    {
+      "step": 910,
+      "task_idx": 3,
+      "layer": "layers.4",
+      "conflict": 0.4980080190580338,
+      "fisher_weight": 0.013431060356969332,
+      "risk": 0.304177235577608,
+      "num_current_grads": 50
+    },
+    {
+      "step": 910,
+      "task_idx": 3,
+      "layer": "layers.6",
+      "conflict": 0.5000036612025269,
+      "fisher_weight": 1.0,
+      "risk": 0.7000021967215162,
+      "num_current_grads": 50
+    },
+    {
+      "step": 920,
+      "task_idx": 3,
+      "layer": "layers.0",
+      "conflict": 0.49879606696777046,
+      "fisher_weight": 0.0064496993175431885,
+      "risk": 0.30185751990767956,
+      "num_current_grads": 50
+    },
+    {
+      "step": 920,
+      "task_idx": 3,
+      "layer": "layers.2",
+      "conflict": 0.5064314985647798,
+      "fisher_weight": 0.00645741143759886,
+      "risk": 0.30644186371390736,
+      "num_current_grads": 50
+    },
+    {
+      "step": 920,
+      "task_idx": 3,
+      "layer": "layers.4",
+      "conflict": 0.5102765113115311,
+      "fisher_weight": 0.013431060356969332,
+      "risk": 0.31153833092970634,
+      "num_current_grads": 50
+    },
+    {
+      "step": 920,
+      "task_idx": 3,
+      "layer": "layers.6",
+      "conflict": 0.4999981928323223,
+      "fisher_weight": 1.0,
+      "risk": 0.6999989156993933,
+      "num_current_grads": 50
+    },
+    {
+      "step": 930,
+      "task_idx": 3,
+      "layer": "layers.0",
+      "conflict": 0.49995929702345165,
+      "fisher_weight": 0.0064496993175431885,
+      "risk": 0.3025554579410883,
+      "num_current_grads": 50
+    },
+    {
+      "step": 930,
+      "task_idx": 3,
+      "layer": "layers.2",
+      "conflict": 0.4977840860374272,
+      "fisher_weight": 0.00645741143759886,
+      "risk": 0.30125341619749585,
+      "num_current_grads": 50
+    },
+    {
+      "step": 930,
+      "task_idx": 3,
+      "layer": "layers.4",
+      "conflict": 0.5020492339972407,
+      "fisher_weight": 0.013431060356969332,
+      "risk": 0.3066019645411321,
+      "num_current_grads": 50
+    },
+    {
+      "step": 930,
+      "task_idx": 3,
+      "layer": "layers.6",
+      "conflict": 0.49999948722137333,
+      "fisher_weight": 1.0,
+      "risk": 0.699999692332824,
+      "num_current_grads": 50
+    },
+    {
+      "step": 940,
+      "task_idx": 3,
+      "layer": "layers.0",
+      "conflict": 0.5104705989360809,
+      "fisher_weight": 0.0064496993175431885,
+      "risk": 0.30886223908866584,
+      "num_current_grads": 50
+    },
+    {
+      "step": 940,
+      "task_idx": 3,
+      "layer": "layers.2",
+      "conflict": 0.5026627008337528,
+      "fisher_weight": 0.00645741143759886,
+      "risk": 0.30418058507529117,
+      "num_current_grads": 50
+    },
+    {
+      "step": 940,
+      "task_idx": 3,
+      "layer": "layers.4",
+      "conflict": 0.503794330637902,
+      "fisher_weight": 0.013431060356969332,
+      "risk": 0.3076490225255289,
+      "num_current_grads": 50
+    },
+    {
+      "step": 940,
+      "task_idx": 3,
+      "layer": "layers.6",
+      "conflict": 0.4999998649370241,
+      "fisher_weight": 1.0,
+      "risk": 0.6999999189622145,
+      "num_current_grads": 50
+    },
+    {
+      "step": 950,
+      "task_idx": 3,
+      "layer": "layers.0",
+      "conflict": 0.49669827753677964,
+      "fisher_weight": 0.0064496993175431885,
+      "risk": 0.30059884624908506,
+      "num_current_grads": 50
+    },
+    {
+      "step": 950,
+      "task_idx": 3,
+      "layer": "layers.2",
+      "conflict": 0.501641406910494,
+      "fisher_weight": 0.00645741143759886,
+      "risk": 0.30356780872133593,
+      "num_current_grads": 50
+    },
+    {
+      "step": 950,
+      "task_idx": 3,
+      "layer": "layers.4",
+      "conflict": 0.49751841137185693,
+      "fisher_weight": 0.013431060356969332,
+      "risk": 0.30388347096590185,
+      "num_current_grads": 50
+    },
+    {
+      "step": 950,
+      "task_idx": 3,
+      "layer": "layers.6",
+      "conflict": 0.5000047384737627,
+      "fisher_weight": 1.0,
+      "risk": 0.7000028430842576,
+      "num_current_grads": 50
+    },
+    {
+      "step": 960,
+      "task_idx": 3,
+      "layer": "layers.0",
+      "conflict": 0.5001754519325914,
+      "fisher_weight": 0.0064496993175431885,
+      "risk": 0.3026851508865721,
+      "num_current_grads": 50
+    },
+    {
+      "step": 960,
+      "task_idx": 3,
+      "layer": "layers.2",
+      "conflict": 0.5018309169681743,
+      "fisher_weight": 0.00645741143759886,
+      "risk": 0.30368151475594407,
+      "num_current_grads": 50
+    },
+    {
+      "step": 960,
+      "task_idx": 3,
+      "layer": "layers.4",
+      "conflict": 0.505584582220763,
+      "fisher_weight": 0.013431060356969332,
+      "risk": 0.30872317347524547,
+      "num_current_grads": 50
+    },
+    {
+      "step": 960,
+      "task_idx": 3,
+      "layer": "layers.6",
+      "conflict": 0.49999993271847387,
+      "fisher_weight": 1.0,
+      "risk": 0.6999999596310844,
+      "num_current_grads": 50
+    },
+    {
+      "step": 970,
+      "task_idx": 3,
+      "layer": "layers.0",
+      "conflict": 0.4925347426906228,
+      "fisher_weight": 0.0064496993175431885,
+      "risk": 0.298100725341391,
+      "num_current_grads": 50
+    },
+    {
+      "step": 970,
+      "task_idx": 3,
+      "layer": "layers.2",
+      "conflict": 0.4926541019231081,
+      "fisher_weight": 0.00645741143759886,
+      "risk": 0.2981754257289044,
+      "num_current_grads": 50
+    },
+    {
+      "step": 970,
+      "task_idx": 3,
+      "layer": "layers.4",
+      "conflict": 0.4934319634921849,
+      "fisher_weight": 0.013431060356969332,
+      "risk": 0.3014316022380986,
+      "num_current_grads": 50
+    },
+    {
+      "step": 970,
+      "task_idx": 3,
+      "layer": "layers.6",
+      "conflict": 0.5000586212154303,
+      "fisher_weight": 1.0,
+      "risk": 0.7000351727292582,
+      "num_current_grads": 50
+    },
+    {
+      "step": 980,
+      "task_idx": 3,
+      "layer": "layers.0",
+      "conflict": 0.5001608084276086,
+      "fisher_weight": 0.0064496993175431885,
+      "risk": 0.3026763647835824,
+      "num_current_grads": 50
+    },
+    {
+      "step": 980,
+      "task_idx": 3,
+      "layer": "layers.2",
+      "conflict": 0.5048435614444315,
+      "fisher_weight": 0.00645741143759886,
+      "risk": 0.30548910144169844,
+      "num_current_grads": 50
+    },
+    {
+      "step": 980,
+      "task_idx": 3,
+      "layer": "layers.4",
+      "conflict": 0.5001220067133545,
+      "fisher_weight": 0.013431060356969332,
+      "risk": 0.3054456281708004,
+      "num_current_grads": 50
+    },
+    {
+      "step": 980,
+      "task_idx": 3,
+      "layer": "layers.6",
+      "conflict": 0.5000002911981767,
+      "fisher_weight": 1.0,
+      "risk": 0.700000174718906,
+      "num_current_grads": 50
+    },
+    {
+      "step": 990,
+      "task_idx": 3,
+      "layer": "layers.0",
+      "conflict": 0.49948745453730226,
+      "fisher_weight": 0.0064496993175431885,
+      "risk": 0.30227235244939865,
+      "num_current_grads": 50
+    },
+    {
+      "step": 990,
+      "task_idx": 3,
+      "layer": "layers.2",
+      "conflict": 0.49983097428048495,
+      "fisher_weight": 0.00645741143759886,
+      "risk": 0.3024815491433305,
+      "num_current_grads": 50
+    },
+    {
+      "step": 990,
+      "task_idx": 3,
+      "layer": "layers.4",
+      "conflict": 0.5012581773335114,
+      "fisher_weight": 0.013431060356969332,
+      "risk": 0.30612733054289454,
+      "num_current_grads": 50
+    },
+    {
+      "step": 990,
+      "task_idx": 3,
+      "layer": "layers.6",
+      "conflict": 0.4999991767008396,
+      "fisher_weight": 1.0,
+      "risk": 0.6999995060205038,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1000,
+      "task_idx": 3,
+      "layer": "layers.0",
+      "conflict": 0.5022755614481866,
+      "fisher_weight": 0.0064496993175431885,
+      "risk": 0.30394521659592927,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1000,
+      "task_idx": 3,
+      "layer": "layers.2",
+      "conflict": 0.5009038886637427,
+      "fisher_weight": 0.00645741143759886,
+      "risk": 0.3031252977732851,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1000,
+      "task_idx": 3,
+      "layer": "layers.4",
+      "conflict": 0.5030781121458858,
+      "fisher_weight": 0.013431060356969332,
+      "risk": 0.3072192914303192,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1000,
+      "task_idx": 3,
+      "layer": "layers.6",
+      "conflict": 0.4999996635418711,
+      "fisher_weight": 1.0,
+      "risk": 0.6999997981251227,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1010,
+      "task_idx": 3,
+      "layer": "layers.0",
+      "conflict": 0.5021890599746257,
+      "fisher_weight": 0.0064496993175431885,
+      "risk": 0.3038933157117927,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1010,
+      "task_idx": 3,
+      "layer": "layers.2",
+      "conflict": 0.4957120637409389,
+      "fisher_weight": 0.00645741143759886,
+      "risk": 0.3000102028196029,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1010,
+      "task_idx": 3,
+      "layer": "layers.4",
+      "conflict": 0.4924819855950773,
+      "fisher_weight": 0.013431060356969332,
+      "risk": 0.3008616154998341,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1010,
+      "task_idx": 3,
+      "layer": "layers.6",
+      "conflict": 0.5000028617503176,
+      "fisher_weight": 1.0,
+      "risk": 0.7000017170501907,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1020,
+      "task_idx": 3,
+      "layer": "layers.0",
+      "conflict": 0.49552106531336904,
+      "fisher_weight": 0.0064496993175431885,
+      "risk": 0.2998925189150387,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1020,
+      "task_idx": 3,
+      "layer": "layers.2",
+      "conflict": 0.4952285042963922,
+      "fisher_weight": 0.00645741143759886,
+      "risk": 0.29972006715287486,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1020,
+      "task_idx": 3,
+      "layer": "layers.4",
+      "conflict": 0.4985343813896179,
+      "fisher_weight": 0.013431060356969332,
+      "risk": 0.30449305297655843,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1020,
+      "task_idx": 3,
+      "layer": "layers.6",
+      "conflict": 0.49999878777578033,
+      "fisher_weight": 1.0,
+      "risk": 0.6999992726654682,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1030,
+      "task_idx": 3,
+      "layer": "layers.0",
+      "conflict": 0.5010285263415426,
+      "fisher_weight": 0.0064496993175431885,
+      "risk": 0.30319699553194285,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1030,
+      "task_idx": 3,
+      "layer": "layers.2",
+      "conflict": 0.499364604591392,
+      "fisher_weight": 0.00645741143759886,
+      "risk": 0.3022017273298747,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1030,
+      "task_idx": 3,
+      "layer": "layers.4",
+      "conflict": 0.5022158944047987,
+      "fisher_weight": 0.013431060356969332,
+      "risk": 0.30670196078566697,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1030,
+      "task_idx": 3,
+      "layer": "layers.6",
+      "conflict": 0.5000010102660326,
+      "fisher_weight": 1.0,
+      "risk": 0.7000006061596196,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1040,
+      "task_idx": 3,
+      "layer": "layers.0",
+      "conflict": 0.5003736114304047,
+      "fisher_weight": 0.0064496993175431885,
+      "risk": 0.3028040465852601,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1040,
+      "task_idx": 3,
+      "layer": "layers.2",
+      "conflict": 0.5034054282587022,
+      "fisher_weight": 0.00645741143759886,
+      "risk": 0.3046262215302608,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1040,
+      "task_idx": 3,
+      "layer": "layers.4",
+      "conflict": 0.5018735704943538,
+      "fisher_weight": 0.013431060356969332,
+      "risk": 0.3064965664394,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1040,
+      "task_idx": 3,
+      "layer": "layers.6",
+      "conflict": 0.5000013122937617,
+      "fisher_weight": 1.0,
+      "risk": 0.700000787376257,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1050,
+      "task_idx": 3,
+      "layer": "layers.0",
+      "conflict": 0.49855271249543875,
+      "fisher_weight": 0.0064496993175431885,
+      "risk": 0.30171150722428053,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1050,
+      "task_idx": 3,
+      "layer": "layers.2",
+      "conflict": 0.4960573776625097,
+      "fisher_weight": 0.00645741143759886,
+      "risk": 0.3002173911725453,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1050,
+      "task_idx": 3,
+      "layer": "layers.4",
+      "conflict": 0.4960995854344219,
+      "fisher_weight": 0.013431060356969332,
+      "risk": 0.30303217540344085,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1050,
+      "task_idx": 3,
+      "layer": "layers.6",
+      "conflict": 0.500003645957122,
+      "fisher_weight": 1.0,
+      "risk": 0.7000021875742732,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1060,
+      "task_idx": 3,
+      "layer": "layers.0",
+      "conflict": 0.5027798225637525,
+      "fisher_weight": 0.0064496993175431885,
+      "risk": 0.3042477732652688,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1060,
+      "task_idx": 3,
+      "layer": "layers.2",
+      "conflict": 0.5049407831393182,
+      "fisher_weight": 0.00645741143759886,
+      "risk": 0.3055474344586305,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1060,
+      "task_idx": 3,
+      "layer": "layers.4",
+      "conflict": 0.501456237048842,
+      "fisher_weight": 0.013431060356969332,
+      "risk": 0.3062461663720929,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1060,
+      "task_idx": 3,
+      "layer": "layers.6",
+      "conflict": 0.5000000560333859,
+      "fisher_weight": 1.0,
+      "risk": 0.7000000336200316,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1070,
+      "task_idx": 3,
+      "layer": "layers.0",
+      "conflict": 0.4981675877934322,
+      "fisher_weight": 0.0064496993175431885,
+      "risk": 0.3014804324030766,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1070,
+      "task_idx": 3,
+      "layer": "layers.2",
+      "conflict": 0.49123513139784336,
+      "fisher_weight": 0.00645741143759886,
+      "risk": 0.2973240434137455,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1070,
+      "task_idx": 3,
+      "layer": "layers.4",
+      "conflict": 0.49458094174042344,
+      "fisher_weight": 0.013431060356969332,
+      "risk": 0.3021209891870418,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1070,
+      "task_idx": 3,
+      "layer": "layers.6",
+      "conflict": 0.499999723660693,
+      "fisher_weight": 1.0,
+      "risk": 0.6999998341964158,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1080,
+      "task_idx": 3,
+      "layer": "layers.0",
+      "conflict": 0.5020098350942135,
+      "fisher_weight": 0.0064496993175431885,
+      "risk": 0.30378578078354534,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1080,
+      "task_idx": 3,
+      "layer": "layers.2",
+      "conflict": 0.5011023021070287,
+      "fisher_weight": 0.00645741143759886,
+      "risk": 0.30324434583925675,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1080,
+      "task_idx": 3,
+      "layer": "layers.4",
+      "conflict": 0.5019897983875126,
+      "fisher_weight": 0.013431060356969332,
+      "risk": 0.30656630317529526,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1080,
+      "task_idx": 3,
+      "layer": "layers.6",
+      "conflict": 0.49999948081739376,
+      "fisher_weight": 1.0,
+      "risk": 0.6999996884904363,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1090,
+      "task_idx": 3,
+      "layer": "layers.0",
+      "conflict": 0.5065610334277153,
+      "fisher_weight": 0.0064496993175431885,
+      "risk": 0.3065164997836465,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1090,
+      "task_idx": 3,
+      "layer": "layers.2",
+      "conflict": 0.514034528285265,
+      "fisher_weight": 0.00645741143759886,
+      "risk": 0.3110036815461985,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1090,
+      "task_idx": 3,
+      "layer": "layers.4",
+      "conflict": 0.5020809825509787,
+      "fisher_weight": 0.013431060356969332,
+      "risk": 0.3066210136733749,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1090,
+      "task_idx": 3,
+      "layer": "layers.6",
+      "conflict": 0.5000015867441334,
+      "fisher_weight": 1.0,
+      "risk": 0.70000095204648,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1100,
+      "task_idx": 3,
+      "layer": "layers.0",
+      "conflict": 0.5027827774174511,
+      "fisher_weight": 0.0064496993175431885,
+      "risk": 0.30424954617748795,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1100,
+      "task_idx": 3,
+      "layer": "layers.2",
+      "conflict": 0.5026891096495092,
+      "fisher_weight": 0.00645741143759886,
+      "risk": 0.30419643036474503,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1100,
+      "task_idx": 3,
+      "layer": "layers.4",
+      "conflict": 0.5055906502529979,
+      "fisher_weight": 0.013431060356969332,
+      "risk": 0.3087268142945864,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1100,
+      "task_idx": 3,
+      "layer": "layers.6",
+      "conflict": 0.49999936174953064,
+      "fisher_weight": 1.0,
+      "risk": 0.6999996170497185,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1110,
+      "task_idx": 3,
+      "layer": "layers.0",
+      "conflict": 0.5032272792886943,
+      "fisher_weight": 0.0064496993175431885,
+      "risk": 0.30451624730023386,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1110,
+      "task_idx": 3,
+      "layer": "layers.2",
+      "conflict": 0.503342034528032,
+      "fisher_weight": 0.00645741143759886,
+      "risk": 0.3045881852918587,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1110,
+      "task_idx": 3,
+      "layer": "layers.4",
+      "conflict": 0.50255436450243,
+      "fisher_weight": 0.013431060356969332,
+      "risk": 0.3069050428442457,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1110,
+      "task_idx": 3,
+      "layer": "layers.6",
+      "conflict": 0.4999995882279791,
+      "fisher_weight": 1.0,
+      "risk": 0.6999997529367874,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1120,
+      "task_idx": 3,
+      "layer": "layers.0",
+      "conflict": 0.5001663370348979,
+      "fisher_weight": 0.0064496993175431885,
+      "risk": 0.302679681947956,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1120,
+      "task_idx": 3,
+      "layer": "layers.2",
+      "conflict": 0.4977979047689587,
+      "fisher_weight": 0.00645741143759886,
+      "risk": 0.3012617074364147,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1120,
+      "task_idx": 3,
+      "layer": "layers.4",
+      "conflict": 0.5002785851247609,
+      "fisher_weight": 0.013431060356969332,
+      "risk": 0.30553957521764424,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1120,
+      "task_idx": 3,
+      "layer": "layers.6",
+      "conflict": 0.4999991316069554,
+      "fisher_weight": 1.0,
+      "risk": 0.6999994789641732,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1130,
+      "task_idx": 4,
+      "layer": "layers.0",
+      "conflict": 0.49302871339023113,
+      "fisher_weight": 0.006461434927617557,
+      "risk": 0.2984018020051857,
+      "num_current_grads": 2
+    },
+    {
+      "step": 1130,
+      "task_idx": 4,
+      "layer": "layers.2",
+      "conflict": 0.4911732757464051,
+      "fisher_weight": 0.006390674291111059,
+      "risk": 0.29726023516428746,
+      "num_current_grads": 2
+    },
+    {
+      "step": 1130,
+      "task_idx": 4,
+      "layer": "layers.4",
+      "conflict": 0.49808218341786414,
+      "fisher_weight": 0.01346821039844948,
+      "risk": 0.30423659421009824,
+      "num_current_grads": 2
+    },
+    {
+      "step": 1130,
+      "task_idx": 4,
+      "layer": "layers.6",
+      "conflict": 0.5015760930255055,
+      "fisher_weight": 1.0,
+      "risk": 0.7009456558153033,
+      "num_current_grads": 2
+    },
+    {
+      "step": 1140,
+      "task_idx": 4,
+      "layer": "layers.0",
+      "conflict": 0.4932200647890568,
+      "fisher_weight": 0.006461434927617557,
+      "risk": 0.29851661284448106,
+      "num_current_grads": 12
+    },
+    {
+      "step": 1140,
+      "task_idx": 4,
+      "layer": "layers.2",
+      "conflict": 0.5019845005590469,
+      "fisher_weight": 0.006390674291111059,
+      "risk": 0.3037469700518725,
+      "num_current_grads": 12
+    },
+    {
+      "step": 1140,
+      "task_idx": 4,
+      "layer": "layers.4",
+      "conflict": 0.5048347357660532,
+      "fisher_weight": 0.01346821039844948,
+      "risk": 0.3082881256190117,
+      "num_current_grads": 12
+    },
+    {
+      "step": 1140,
+      "task_idx": 4,
+      "layer": "layers.6",
+      "conflict": 0.5009885557228699,
+      "fisher_weight": 1.0,
+      "risk": 0.700593133433722,
+      "num_current_grads": 12
+    },
+    {
+      "step": 1150,
+      "task_idx": 4,
+      "layer": "layers.0",
+      "conflict": 0.500553377205506,
+      "fisher_weight": 0.006461434927617557,
+      "risk": 0.3029166002943506,
+      "num_current_grads": 22
+    },
+    {
+      "step": 1150,
+      "task_idx": 4,
+      "layer": "layers.2",
+      "conflict": 0.5008847137214616,
+      "fisher_weight": 0.006390674291111059,
+      "risk": 0.30308709794932137,
+      "num_current_grads": 22
+    },
+    {
+      "step": 1150,
+      "task_idx": 4,
+      "layer": "layers.4",
+      "conflict": 0.49977838176710065,
+      "fisher_weight": 0.01346821039844948,
+      "risk": 0.30525431321964014,
+      "num_current_grads": 22
+    },
+    {
+      "step": 1150,
+      "task_idx": 4,
+      "layer": "layers.6",
+      "conflict": 0.5000171305964614,
+      "fisher_weight": 1.0,
+      "risk": 0.7000102783578768,
+      "num_current_grads": 22
+    },
+    {
+      "step": 1160,
+      "task_idx": 4,
+      "layer": "layers.0",
+      "conflict": 0.5027600375469774,
+      "fisher_weight": 0.006461434927617557,
+      "risk": 0.3042405964992334,
+      "num_current_grads": 32
+    },
+    {
+      "step": 1160,
+      "task_idx": 4,
+      "layer": "layers.2",
+      "conflict": 0.5059544113464653,
+      "fisher_weight": 0.006390674291111059,
+      "risk": 0.3061289165243236,
+      "num_current_grads": 32
+    },
+    {
+      "step": 1160,
+      "task_idx": 4,
+      "layer": "layers.4",
+      "conflict": 0.5137465111911297,
+      "fisher_weight": 0.01346821039844948,
+      "risk": 0.31363519087405756,
+      "num_current_grads": 32
+    },
+    {
+      "step": 1160,
+      "task_idx": 4,
+      "layer": "layers.6",
+      "conflict": 0.49998399618016265,
+      "fisher_weight": 1.0,
+      "risk": 0.6999903977080977,
+      "num_current_grads": 32
+    },
+    {
+      "step": 1170,
+      "task_idx": 4,
+      "layer": "layers.0",
+      "conflict": 0.49994191215591854,
+      "fisher_weight": 0.006461434927617557,
+      "risk": 0.3025497212645981,
+      "num_current_grads": 42
+    },
+    {
+      "step": 1170,
+      "task_idx": 4,
+      "layer": "layers.2",
+      "conflict": 0.5002779055503197,
+      "fisher_weight": 0.006390674291111059,
+      "risk": 0.30272301304663624,
+      "num_current_grads": 42
+    },
+    {
+      "step": 1170,
+      "task_idx": 4,
+      "layer": "layers.4",
+      "conflict": 0.49962361803045496,
+      "fisher_weight": 0.01346821039844948,
+      "risk": 0.30516145497765274,
+      "num_current_grads": 42
+    },
+    {
+      "step": 1170,
+      "task_idx": 4,
+      "layer": "layers.6",
+      "conflict": 0.5000000444631212,
+      "fisher_weight": 1.0,
+      "risk": 0.7000000266778728,
+      "num_current_grads": 42
+    },
+    {
+      "step": 1180,
+      "task_idx": 4,
+      "layer": "layers.0",
+      "conflict": 0.4922466711141169,
+      "fisher_weight": 0.006461434927617557,
+      "risk": 0.2979325766395171,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1180,
+      "task_idx": 4,
+      "layer": "layers.2",
+      "conflict": 0.49620668962597847,
+      "fisher_weight": 0.006390674291111059,
+      "risk": 0.30028028349203145,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1180,
+      "task_idx": 4,
+      "layer": "layers.4",
+      "conflict": 0.4894602531567216,
+      "fisher_weight": 0.01346821039844948,
+      "risk": 0.29906343605341273,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1180,
+      "task_idx": 4,
+      "layer": "layers.6",
+      "conflict": 0.5000511586404173,
+      "fisher_weight": 1.0,
+      "risk": 0.7000306951842503,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1190,
+      "task_idx": 4,
+      "layer": "layers.0",
+      "conflict": 0.5001499020436313,
+      "fisher_weight": 0.006461434927617557,
+      "risk": 0.30267451519722577,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1190,
+      "task_idx": 4,
+      "layer": "layers.2",
+      "conflict": 0.4989823214709759,
+      "fisher_weight": 0.006390674291111059,
+      "risk": 0.30194566259902994,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1190,
+      "task_idx": 4,
+      "layer": "layers.4",
+      "conflict": 0.4960765326395631,
+      "fisher_weight": 0.01346821039844948,
+      "risk": 0.3030332037431176,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1190,
+      "task_idx": 4,
+      "layer": "layers.6",
+      "conflict": 0.49999990354937296,
+      "fisher_weight": 1.0,
+      "risk": 0.6999999421296238,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1200,
+      "task_idx": 4,
+      "layer": "layers.0",
+      "conflict": 0.49986088029982056,
+      "fisher_weight": 0.006461434927617557,
+      "risk": 0.30250110215093934,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1200,
+      "task_idx": 4,
+      "layer": "layers.2",
+      "conflict": 0.4950599502772093,
+      "fisher_weight": 0.006390674291111059,
+      "risk": 0.29959223988276995,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1200,
+      "task_idx": 4,
+      "layer": "layers.4",
+      "conflict": 0.49617042555473745,
+      "fisher_weight": 0.01346821039844948,
+      "risk": 0.3030895394922222,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1200,
+      "task_idx": 4,
+      "layer": "layers.6",
+      "conflict": 0.4999952765206217,
+      "fisher_weight": 1.0,
+      "risk": 0.699997165912373,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1210,
+      "task_idx": 4,
+      "layer": "layers.0",
+      "conflict": 0.49763561272993684,
+      "fisher_weight": 0.006461434927617557,
+      "risk": 0.3011659416090091,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1210,
+      "task_idx": 4,
+      "layer": "layers.2",
+      "conflict": 0.5044673052616417,
+      "fisher_weight": 0.006390674291111059,
+      "risk": 0.30523665287342944,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1210,
+      "task_idx": 4,
+      "layer": "layers.4",
+      "conflict": 0.5195884462445974,
+      "fisher_weight": 0.01346821039844948,
+      "risk": 0.3171403519061382,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1210,
+      "task_idx": 4,
+      "layer": "layers.6",
+      "conflict": 0.5000000463182133,
+      "fisher_weight": 1.0,
+      "risk": 0.700000027790928,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1220,
+      "task_idx": 4,
+      "layer": "layers.0",
+      "conflict": 0.4980159450788051,
+      "fisher_weight": 0.006461434927617557,
+      "risk": 0.30139414101833006,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1220,
+      "task_idx": 4,
+      "layer": "layers.2",
+      "conflict": 0.4970776531845331,
+      "fisher_weight": 0.006390674291111059,
+      "risk": 0.30080286162716424,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1220,
+      "task_idx": 4,
+      "layer": "layers.4",
+      "conflict": 0.4969201348721981,
+      "fisher_weight": 0.01346821039844948,
+      "risk": 0.30353936508269863,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1220,
+      "task_idx": 4,
+      "layer": "layers.6",
+      "conflict": 0.5000089310506155,
+      "fisher_weight": 1.0,
+      "risk": 0.7000053586303694,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1230,
+      "task_idx": 4,
+      "layer": "layers.0",
+      "conflict": 0.4998351376707433,
+      "fisher_weight": 0.006461434927617557,
+      "risk": 0.30248565657349297,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1230,
+      "task_idx": 4,
+      "layer": "layers.2",
+      "conflict": 0.4993557125562802,
+      "fisher_weight": 0.006390674291111059,
+      "risk": 0.30216969725021253,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1230,
+      "task_idx": 4,
+      "layer": "layers.4",
+      "conflict": 0.4975066257175058,
+      "fisher_weight": 0.01346821039844948,
+      "risk": 0.3038912595898833,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1230,
+      "task_idx": 4,
+      "layer": "layers.6",
+      "conflict": 0.5000015123179082,
+      "fisher_weight": 1.0,
+      "risk": 0.7000009073907449,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1240,
+      "task_idx": 4,
+      "layer": "layers.0",
+      "conflict": 0.49701472162269056,
+      "fisher_weight": 0.006461434927617557,
+      "risk": 0.30079340694466133,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1240,
+      "task_idx": 4,
+      "layer": "layers.2",
+      "conflict": 0.4974002675153315,
+      "fisher_weight": 0.006390674291111059,
+      "risk": 0.3009964302256433,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1240,
+      "task_idx": 4,
+      "layer": "layers.4",
+      "conflict": 0.4904479347169399,
+      "fisher_weight": 0.01346821039844948,
+      "risk": 0.29965604498954374,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1240,
+      "task_idx": 4,
+      "layer": "layers.6",
+      "conflict": 0.5000023930042516,
+      "fisher_weight": 1.0,
+      "risk": 0.700001435802551,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1250,
+      "task_idx": 4,
+      "layer": "layers.0",
+      "conflict": 0.49975135302520357,
+      "fisher_weight": 0.006461434927617557,
+      "risk": 0.30243538578616913,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1250,
+      "task_idx": 4,
+      "layer": "layers.2",
+      "conflict": 0.49976272403728217,
+      "fisher_weight": 0.006390674291111059,
+      "risk": 0.3024139041388137,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1250,
+      "task_idx": 4,
+      "layer": "layers.4",
+      "conflict": 0.4999899948870734,
+      "fisher_weight": 0.01346821039844948,
+      "risk": 0.3053812810916238,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1250,
+      "task_idx": 4,
+      "layer": "layers.6",
+      "conflict": 0.49999881139603986,
+      "fisher_weight": 1.0,
+      "risk": 0.6999992868376239,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1260,
+      "task_idx": 4,
+      "layer": "layers.0",
+      "conflict": 0.5019510400015861,
+      "fisher_weight": 0.006461434927617557,
+      "risk": 0.3037551979719986,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1260,
+      "task_idx": 4,
+      "layer": "layers.2",
+      "conflict": 0.5047527113929391,
+      "fisher_weight": 0.006390674291111059,
+      "risk": 0.30540789655220785,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1260,
+      "task_idx": 4,
+      "layer": "layers.4",
+      "conflict": 0.5107761146500707,
+      "fisher_weight": 0.01346821039844948,
+      "risk": 0.31185295294942217,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1260,
+      "task_idx": 4,
+      "layer": "layers.6",
+      "conflict": 0.5000008976434174,
+      "fisher_weight": 1.0,
+      "risk": 0.7000005385860504,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1270,
+      "task_idx": 4,
+      "layer": "layers.0",
+      "conflict": 0.5010801738826558,
+      "fisher_weight": 0.006461434927617557,
+      "risk": 0.3032326783006405,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1270,
+      "task_idx": 4,
+      "layer": "layers.2",
+      "conflict": 0.5016448177630082,
+      "fisher_weight": 0.006390674291111059,
+      "risk": 0.3035431603742493,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1270,
+      "task_idx": 4,
+      "layer": "layers.4",
+      "conflict": 0.5095932483673096,
+      "fisher_weight": 0.01346821039844948,
+      "risk": 0.3111432331797655,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1270,
+      "task_idx": 4,
+      "layer": "layers.6",
+      "conflict": 0.4999892324804023,
+      "fisher_weight": 1.0,
+      "risk": 0.6999935394882414,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1280,
+      "task_idx": 4,
+      "layer": "layers.0",
+      "conflict": 0.49971125298179686,
+      "fisher_weight": 0.006461434927617557,
+      "risk": 0.3024113257601251,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1280,
+      "task_idx": 4,
+      "layer": "layers.2",
+      "conflict": 0.49894933635368943,
+      "fisher_weight": 0.006390674291111059,
+      "risk": 0.3019258715286581,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1280,
+      "task_idx": 4,
+      "layer": "layers.4",
+      "conflict": 0.497853334993124,
+      "fisher_weight": 0.01346821039844948,
+      "risk": 0.3040992851552542,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1280,
+      "task_idx": 4,
+      "layer": "layers.6",
+      "conflict": 0.49996004297281615,
+      "fisher_weight": 1.0,
+      "risk": 0.6999760257836898,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1290,
+      "task_idx": 4,
+      "layer": "layers.0",
+      "conflict": 0.4977478620130569,
+      "fisher_weight": 0.006461434927617557,
+      "risk": 0.3012332911788811,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1290,
+      "task_idx": 4,
+      "layer": "layers.2",
+      "conflict": 0.5019012277480215,
+      "fisher_weight": 0.006390674291111059,
+      "risk": 0.30369700636525726,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1290,
+      "task_idx": 4,
+      "layer": "layers.4",
+      "conflict": 0.4945412431843579,
+      "fisher_weight": 0.01346821039844948,
+      "risk": 0.3021120300699945,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1290,
+      "task_idx": 4,
+      "layer": "layers.6",
+      "conflict": 0.5000061352147895,
+      "fisher_weight": 1.0,
+      "risk": 0.7000036811288737,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1300,
+      "task_idx": 4,
+      "layer": "layers.0",
+      "conflict": 0.499815475588548,
+      "fisher_weight": 0.006461434927617557,
+      "risk": 0.3024738593241758,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1300,
+      "task_idx": 4,
+      "layer": "layers.2",
+      "conflict": 0.49815624149050564,
+      "fisher_weight": 0.006390674291111059,
+      "risk": 0.3014500146107478,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1300,
+      "task_idx": 4,
+      "layer": "layers.4",
+      "conflict": 0.5002765242825262,
+      "fisher_weight": 0.01346821039844948,
+      "risk": 0.3055531987288955,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1300,
+      "task_idx": 4,
+      "layer": "layers.6",
+      "conflict": 0.5000041842449718,
+      "fisher_weight": 1.0,
+      "risk": 0.7000025105469831,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1310,
+      "task_idx": 4,
+      "layer": "layers.0",
+      "conflict": 0.5026211645454168,
+      "fisher_weight": 0.006461434927617557,
+      "risk": 0.30415727269829707,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1310,
+      "task_idx": 4,
+      "layer": "layers.2",
+      "conflict": 0.499351997859776,
+      "fisher_weight": 0.006390674291111059,
+      "risk": 0.30216746843231,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1310,
+      "task_idx": 4,
+      "layer": "layers.4",
+      "conflict": 0.5003834259987343,
+      "fisher_weight": 0.01346821039844948,
+      "risk": 0.3056173397586204,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1310,
+      "task_idx": 4,
+      "layer": "layers.6",
+      "conflict": 0.5000225992989726,
+      "fisher_weight": 1.0,
+      "risk": 0.7000135595793836,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1320,
+      "task_idx": 4,
+      "layer": "layers.0",
+      "conflict": 0.4989165987353772,
+      "fisher_weight": 0.006461434927617557,
+      "risk": 0.3019345332122733,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1320,
+      "task_idx": 4,
+      "layer": "layers.2",
+      "conflict": 0.5012287349672988,
+      "fisher_weight": 0.006390674291111059,
+      "risk": 0.3032935106968237,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1320,
+      "task_idx": 4,
+      "layer": "layers.4",
+      "conflict": 0.5041317185387015,
+      "fisher_weight": 0.01346821039844948,
+      "risk": 0.30786631528260067,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1320,
+      "task_idx": 4,
+      "layer": "layers.6",
+      "conflict": 0.5000056017311181,
+      "fisher_weight": 1.0,
+      "risk": 0.7000033610386709,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1330,
+      "task_idx": 4,
+      "layer": "layers.0",
+      "conflict": 0.49980825038801413,
+      "fisher_weight": 0.006461434927617557,
+      "risk": 0.3024695242038555,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1330,
+      "task_idx": 4,
+      "layer": "layers.2",
+      "conflict": 0.4984678849577904,
+      "fisher_weight": 0.006390674291111059,
+      "risk": 0.3016370006911186,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1330,
+      "task_idx": 4,
+      "layer": "layers.4",
+      "conflict": 0.49770483560860157,
+      "fisher_weight": 0.01346821039844948,
+      "risk": 0.30401018552454073,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1330,
+      "task_idx": 4,
+      "layer": "layers.6",
+      "conflict": 0.4999943329935377,
+      "fisher_weight": 1.0,
+      "risk": 0.6999965997961226,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1340,
+      "task_idx": 4,
+      "layer": "layers.0",
+      "conflict": 0.5068488833494484,
+      "fisher_weight": 0.006461434927617557,
+      "risk": 0.30669390398071605,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1340,
+      "task_idx": 4,
+      "layer": "layers.2",
+      "conflict": 0.5046463613398373,
+      "fisher_weight": 0.006390674291111059,
+      "risk": 0.3053440865203468,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1340,
+      "task_idx": 4,
+      "layer": "layers.4",
+      "conflict": 0.5030287567060441,
+      "fisher_weight": 0.01346821039844948,
+      "risk": 0.3072045381830062,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1340,
+      "task_idx": 4,
+      "layer": "layers.6",
+      "conflict": 0.4998805684808758,
+      "fisher_weight": 1.0,
+      "risk": 0.6999283410885255,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1350,
+      "task_idx": 4,
+      "layer": "layers.0",
+      "conflict": 0.49902070953976363,
+      "fisher_weight": 0.006461434927617557,
+      "risk": 0.3019969996949052,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1350,
+      "task_idx": 4,
+      "layer": "layers.2",
+      "conflict": 0.5010234119836241,
+      "fisher_weight": 0.006390674291111059,
+      "risk": 0.30317031690661883,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1350,
+      "task_idx": 4,
+      "layer": "layers.4",
+      "conflict": 0.5049308831803501,
+      "fisher_weight": 0.01346821039844948,
+      "risk": 0.3083458140675898,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1350,
+      "task_idx": 4,
+      "layer": "layers.6",
+      "conflict": 0.5000033006119793,
+      "fisher_weight": 1.0,
+      "risk": 0.7000019803671875,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1360,
+      "task_idx": 4,
+      "layer": "layers.0",
+      "conflict": 0.5002358609490329,
+      "fisher_weight": 0.006461434927617557,
+      "risk": 0.30272609054046673,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1360,
+      "task_idx": 4,
+      "layer": "layers.2",
+      "conflict": 0.4991133632720448,
+      "fisher_weight": 0.006390674291111059,
+      "risk": 0.30202428767967127,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1360,
+      "task_idx": 4,
+      "layer": "layers.4",
+      "conflict": 0.5034806975163519,
+      "fisher_weight": 0.01346821039844948,
+      "risk": 0.30747570266919094,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1360,
+      "task_idx": 4,
+      "layer": "layers.6",
+      "conflict": 0.49998497826709354,
+      "fisher_weight": 1.0,
+      "risk": 0.6999909869602561,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1370,
+      "task_idx": 4,
+      "layer": "layers.0",
+      "conflict": 0.4982263307319954,
+      "fisher_weight": 0.006461434927617557,
+      "risk": 0.3015203724102442,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1370,
+      "task_idx": 4,
+      "layer": "layers.2",
+      "conflict": 0.4982023334596306,
+      "fisher_weight": 0.006390674291111059,
+      "risk": 0.30147766979222274,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1370,
+      "task_idx": 4,
+      "layer": "layers.4",
+      "conflict": 0.4905988434329629,
+      "fisher_weight": 0.01346821039844948,
+      "risk": 0.2997465902191575,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1370,
+      "task_idx": 4,
+      "layer": "layers.6",
+      "conflict": 0.5000565595400985,
+      "fisher_weight": 1.0,
+      "risk": 0.7000339357240591,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1380,
+      "task_idx": 4,
+      "layer": "layers.0",
+      "conflict": 0.49759886786341667,
+      "fisher_weight": 0.006461434927617557,
+      "risk": 0.30114389468909697,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1380,
+      "task_idx": 4,
+      "layer": "layers.2",
+      "conflict": 0.4961368734948337,
+      "fisher_weight": 0.006390674291111059,
+      "risk": 0.3002383938133446,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1380,
+      "task_idx": 4,
+      "layer": "layers.4",
+      "conflict": 0.4991928561939858,
+      "fisher_weight": 0.01346821039844948,
+      "risk": 0.30490299787577124,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1380,
+      "task_idx": 4,
+      "layer": "layers.6",
+      "conflict": 0.5000007546286156,
+      "fisher_weight": 1.0,
+      "risk": 0.7000004527771694,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1390,
+      "task_idx": 4,
+      "layer": "layers.0",
+      "conflict": 0.49806520249694586,
+      "fisher_weight": 0.006461434927617557,
+      "risk": 0.3014236954692145,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1390,
+      "task_idx": 4,
+      "layer": "layers.2",
+      "conflict": 0.49721246236003935,
+      "fisher_weight": 0.006390674291111059,
+      "risk": 0.300883747132468,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1390,
+      "task_idx": 4,
+      "layer": "layers.4",
+      "conflict": 0.4875692781060934,
+      "fisher_weight": 0.01346821039844948,
+      "risk": 0.2979288510230358,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1390,
+      "task_idx": 4,
+      "layer": "layers.6",
+      "conflict": 0.500000433281798,
+      "fisher_weight": 1.0,
+      "risk": 0.7000002599690789,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1400,
+      "task_idx": 4,
+      "layer": "layers.0",
+      "conflict": 0.5011378797935322,
+      "fisher_weight": 0.006461434927617557,
+      "risk": 0.3032673018471663,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1400,
+      "task_idx": 4,
+      "layer": "layers.2",
+      "conflict": 0.5011546239256859,
+      "fisher_weight": 0.006390674291111059,
+      "risk": 0.30324904407185593,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1400,
+      "task_idx": 4,
+      "layer": "layers.4",
+      "conflict": 0.5032104537822306,
+      "fisher_weight": 0.01346821039844948,
+      "risk": 0.30731355642871816,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1400,
+      "task_idx": 4,
+      "layer": "layers.6",
+      "conflict": 0.5000010232502063,
+      "fisher_weight": 1.0,
+      "risk": 0.7000006139501238,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1410,
+      "task_idx": 4,
+      "layer": "layers.0",
+      "conflict": 0.5020151124335825,
+      "fisher_weight": 0.006461434927617557,
+      "risk": 0.3037936414311965,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1410,
+      "task_idx": 4,
+      "layer": "layers.2",
+      "conflict": 0.5017198363784701,
+      "fisher_weight": 0.006390674291111059,
+      "risk": 0.3035881715435264,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1410,
+      "task_idx": 4,
+      "layer": "layers.4",
+      "conflict": 0.4966063927859068,
+      "fisher_weight": 0.01346821039844948,
+      "risk": 0.30335111983092383,
+      "num_current_grads": 50
+    },
+    {
+      "step": 1410,
+      "task_idx": 4,
+      "layer": "layers.6",
+      "conflict": 0.5000125270071294,
+      "fisher_weight": 1.0,
+      "risk": 0.7000075162042776,
+      "num_current_grads": 50
+    }
+  ],
+  "task_boundaries": [
+    0,
+    282,
+    564,
+    846,
+    1128
+  ],
+  "forgetting_events": [],
+  "accuracy_history_during_training": {
+    "Task_0_1": [
+      {
+        "step": 282,
+        "accuracy": 0.991
+      },
+      {
+        "step": 300,
+        "accuracy": 0.0
+      },
+      {
+        "step": 320,
+        "accuracy": 0.0
+      },
+      {
+        "step": 340,
+        "accuracy": 0.0
+      },
+      {
+        "step": 360,
+        "accuracy": 0.0
+      },
+      {
+        "step": 380,
+        "accuracy": 0.0
+      },
+      {
+        "step": 400,
+        "accuracy": 0.0
+      },
+      {
+        "step": 420,
+        "accuracy": 0.0
+      },
+      {
+        "step": 440,
+        "accuracy": 0.0
+      },
+      {
+        "step": 460,
+        "accuracy": 0.0
+      },
+      {
+        "step": 480,
+        "accuracy": 0.0
+      },
+      {
+        "step": 500,
+        "accuracy": 0.0
+      },
+      {
+        "step": 520,
+        "accuracy": 0.0
+      },
+      {
+        "step": 540,
+        "accuracy": 0.0
+      },
+      {
+        "step": 560,
+        "accuracy": 0.0
+      },
+      {
+        "step": 564,
+        "accuracy": 0.0
+      },
+      {
+        "step": 580,
+        "accuracy": 0.0
+      },
+      {
+        "step": 600,
+        "accuracy": 0.0
+      },
+      {
+        "step": 620,
+        "accuracy": 0.0
+      },
+      {
+        "step": 640,
+        "accuracy": 0.0
+      },
+      {
+        "step": 660,
+        "accuracy": 0.0
+      },
+      {
+        "step": 680,
+        "accuracy": 0.0
+      },
+      {
+        "step": 700,
+        "accuracy": 0.0
+      },
+      {
+        "step": 720,
+        "accuracy": 0.0
+      },
+      {
+        "step": 740,
+        "accuracy": 0.0
+      },
+      {
+        "step": 760,
+        "accuracy": 0.0
+      },
+      {
+        "step": 780,
+        "accuracy": 0.0
+      },
+      {
+        "step": 800,
+        "accuracy": 0.0
+      },
+      {
+        "step": 820,
+        "accuracy": 0.0
+      },
+      {
+        "step": 840,
+        "accuracy": 0.0
+      },
+      {
+        "step": 846,
+        "accuracy": 0.0
+      },
+      {
+        "step": 860,
+        "accuracy": 0.0
+      },
+      {
+        "step": 880,
+        "accuracy": 0.0
+      },
+      {
+        "step": 900,
+        "accuracy": 0.0
+      },
+      {
+        "step": 920,
+        "accuracy": 0.0
+      },
+      {
+        "step": 940,
+        "accuracy": 0.0
+      },
+      {
+        "step": 960,
+        "accuracy": 0.0
+      },
+      {
+        "step": 980,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1000,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1020,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1040,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1060,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1080,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1100,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1120,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1128,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1140,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1160,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1180,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1200,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1220,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1240,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1260,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1280,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1300,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1320,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1340,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1360,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1380,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1400,
+        "accuracy": 0.0
+      }
+    ],
+    "Task_2_3": [
+      {
+        "step": 564,
+        "accuracy": 0.9685
+      },
+      {
+        "step": 580,
+        "accuracy": 0.0005
+      },
+      {
+        "step": 600,
+        "accuracy": 0.0
+      },
+      {
+        "step": 620,
+        "accuracy": 0.0
+      },
+      {
+        "step": 640,
+        "accuracy": 0.0
+      },
+      {
+        "step": 660,
+        "accuracy": 0.0
+      },
+      {
+        "step": 680,
+        "accuracy": 0.0
+      },
+      {
+        "step": 700,
+        "accuracy": 0.0
+      },
+      {
+        "step": 720,
+        "accuracy": 0.0
+      },
+      {
+        "step": 740,
+        "accuracy": 0.0
+      },
+      {
+        "step": 760,
+        "accuracy": 0.0
+      },
+      {
+        "step": 780,
+        "accuracy": 0.0
+      },
+      {
+        "step": 800,
+        "accuracy": 0.0
+      },
+      {
+        "step": 820,
+        "accuracy": 0.0
+      },
+      {
+        "step": 840,
+        "accuracy": 0.0
+      },
+      {
+        "step": 846,
+        "accuracy": 0.0
+      },
+      {
+        "step": 860,
+        "accuracy": 0.0
+      },
+      {
+        "step": 880,
+        "accuracy": 0.0
+      },
+      {
+        "step": 900,
+        "accuracy": 0.0
+      },
+      {
+        "step": 920,
+        "accuracy": 0.0
+      },
+      {
+        "step": 940,
+        "accuracy": 0.0
+      },
+      {
+        "step": 960,
+        "accuracy": 0.0
+      },
+      {
+        "step": 980,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1000,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1020,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1040,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1060,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1080,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1100,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1120,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1128,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1140,
+        "accuracy": 0.0005
+      },
+      {
+        "step": 1160,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1180,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1200,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1220,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1240,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1260,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1280,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1300,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1320,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1340,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1360,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1380,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1400,
+        "accuracy": 0.0
+      }
+    ],
+    "Task_4_5": [
+      {
+        "step": 846,
+        "accuracy": 1.0
+      },
+      {
+        "step": 860,
+        "accuracy": 0.0
+      },
+      {
+        "step": 880,
+        "accuracy": 0.0
+      },
+      {
+        "step": 900,
+        "accuracy": 0.0
+      },
+      {
+        "step": 920,
+        "accuracy": 0.0
+      },
+      {
+        "step": 940,
+        "accuracy": 0.0
+      },
+      {
+        "step": 960,
+        "accuracy": 0.0
+      },
+      {
+        "step": 980,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1000,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1020,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1040,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1060,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1080,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1100,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1120,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1128,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1140,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1160,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1180,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1200,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1220,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1240,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1260,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1280,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1300,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1320,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1340,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1360,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1380,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1400,
+        "accuracy": 0.0
+      }
+    ],
+    "Task_6_7": [
+      {
+        "step": 1128,
+        "accuracy": 0.9995
+      },
+      {
+        "step": 1140,
+        "accuracy": 0.0025
+      },
+      {
+        "step": 1160,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1180,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1200,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1220,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1240,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1260,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1280,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1300,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1320,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1340,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1360,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1380,
+        "accuracy": 0.0
+      },
+      {
+        "step": 1400,
+        "accuracy": 0.0
+      }
+    ]
+  }
+}

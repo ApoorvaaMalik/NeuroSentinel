@@ -1,0 +1,31 @@
+{
+  "H1_gradient_conflict_predicts_forgetting": {
+    "pearson_r": 0.3367,
+    "p_value": 0.6633,
+    "n_points": 4,
+    "H1_supported": false,
+    "interpretation": "r=0.337, p=0.6633 \u2014 correlation not significant \u2717"
+  },
+  "H2_non_uniform_layer_forgetting": {
+    "layer_risks": {
+      "layers.0": 0.3025,
+      "layers.2": 0.3019,
+      "layers.4": 0.3052,
+      "layers.6": 0.6999
+    },
+    "spearman_rho": 0.8,
+    "p_value": 0.2,
+    "H2_supported": true,
+    "min_risk_layer": "layers.2",
+    "max_risk_layer": "layers.6",
+    "risk_range": 0.3979,
+    "interpretation": "Spearman \u03c1=0.800, p=0.2000 \u2014 depth-risk correlation confirmed \u2713"
+  },
+  "H3_early_warning": {
+    "early_warnings_issued": 4,
+    "late_or_missed": 0,
+    "mean_lag_steps": 430.0,
+    "H3_supported": true,
+    "note": "Full analysis available \u2014 record_accuracy() was called."
+  }
+}

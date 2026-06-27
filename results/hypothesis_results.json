@@ -1,0 +1,31 @@
+{
+  "H1_gradient_conflict_predicts_forgetting": {
+    "total_warnings": 94,
+    "danger_warnings": 0,
+    "mean_risk_overall": 0.403,
+    "H1_supported": null,
+    "note": "Insufficient paired data for Pearson r. Call record_accuracy() during training to enable full H1."
+  },
+  "H2_non_uniform_layer_forgetting": {
+    "layer_risks": {
+      "layers.0": 0.3044,
+      "layers.2": 0.3024,
+      "layers.4": 0.3052,
+      "layers.6": 0.7
+    },
+    "spearman_rho": 0.8,
+    "p_value": 0.2,
+    "H2_supported": true,
+    "min_risk_layer": "layers.2",
+    "max_risk_layer": "layers.6",
+    "risk_range": 0.3976,
+    "interpretation": "Spearman \u03c1=0.800, p=0.2000 \u2014 depth-risk correlation confirmed \u2713"
+  },
+  "H3_early_warning": {
+    "early_warnings_issued": 2,
+    "late_or_missed": 0,
+    "mean_lag_steps": 245.0,
+    "H3_supported": true,
+    "note": "Full analysis available \u2014 record_accuracy() was called."
+  }
+}

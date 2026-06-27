@@ -1,0 +1,34 @@
+{
+  "layers.0": {
+    "current_risk": 0.3027,
+    "peak_risk": 0.3217,
+    "mean_risk": 0.3044,
+    "trend": "stable",
+    "total_readings": 94,
+    "status": "SAFE"
+  },
+  "layers.2": {
+    "current_risk": 0.3024,
+    "peak_risk": 0.3071,
+    "mean_risk": 0.3024,
+    "trend": "stable",
+    "total_readings": 94,
+    "status": "SAFE"
+  },
+  "layers.4": {
+    "current_risk": 0.3052,
+    "peak_risk": 0.3163,
+    "mean_risk": 0.3052,
+    "trend": "stable",
+    "total_readings": 94,
+    "status": "SAFE"
+  },
+  "layers.6": {
+    "current_risk": 0.7,
+    "peak_risk": 0.7,
+    "mean_risk": 0.7,
+    "trend": "stable",
+    "total_readings": 94,
+    "status": "WARNING"
+  }
+}

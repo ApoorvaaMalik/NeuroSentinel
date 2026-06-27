@@ -1,0 +1,26 @@
+{
+  "layers.0": {
+    "current_risk": 0.2971,
+    "peak_risk": 0.3495,
+    "mean_risk": 0.2998,
+    "trend": "stable",
+    "total_readings": 95,
+    "status": "SAFE"
+  },
+  "layers.2": {
+    "current_risk": 0.3022,
+    "peak_risk": 0.3362,
+    "mean_risk": 0.3022,
+    "trend": "stable",
+    "total_readings": 95,
+    "status": "SAFE"
+  },
+  "layers.4": {
+    "current_risk": 0.7003,
+    "peak_risk": 0.7122,
+    "mean_risk": 0.7004,
+    "trend": "stable",
+    "total_readings": 95,
+    "status": "WARNING"
+  }
+}
