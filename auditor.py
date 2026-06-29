@@ -4,19 +4,6 @@ auditor.py — The Forgetting Auditor (Core of  NeuroSentinel)
 Watches gradient flow in real-time to detect catastrophic forgetting BEFORE
 it is confirmed by accuracy loss.
 
-KEY FIXES vs. original:
-  - Hook now uses register_full_backward_hook (register_backward_hook is
-    deprecated in PyTorch >= 2.0 and gives wrong shapes for some layers)
-  - _snapshot_reference_gradients: tensors may live on different devices/dtypes;
-    we move everything to CPU float32 before stacking
-  - _compute_gradient_conflict: added device-safe flatten + dtype cast
-  - begin_task: reference gradients are now carried forward across ALL tasks,
-    not just task N-1.  Earlier tasks' gradients are blended so a 3-task run
-    doesn't lose T0's fingerprint after T2 starts.
-  - Fisher is computed ONCE and blended (exponential moving average) so it
-    accumulates signal across tasks.
-  - remove() is idempotent — safe to call multiple times.
-
 WHAT IS GRADIENT CONFLICT?
 ----------------------------
 If Task A pushed weights RIGHT (+gradient) and Task B pushes them LEFT
