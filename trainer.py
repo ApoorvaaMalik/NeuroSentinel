@@ -1,17 +1,6 @@
 """
 trainer.py — The Training Loop
 ================================
-KEY FIXES vs. original:
-  - evaluate() is now called DURING training (every `eval_every_n_steps`)
-    and the result is fed to scorer.record_accuracy() — this is what enables
-    the real H1 Pearson-r test and the H3 lag computation.
-  - Multi-dataset support: Split-MNIST, Split-FashionMNIST, Split-CIFAR10,
-    Split-SVHN.  Pass dataset="fashionmnist" / "cifar10" / "svhn" to the
-    constructor.  CIFAR-10 and SVHN use a small CNN instead of the MLP.
-  - Added ConvNet model for image datasets with 3-channel inputs.
-  - Task boundaries (step numbers) are logged so the visualizer can draw
-    vertical dividers.
-  - _save_results now also saves task_boundaries for the visualizer.
 """
 
 import torch
@@ -77,7 +66,7 @@ class SmallCNN(nn.Module):
         return self.layers(x)
 
 
-# ─── DATASET BUILDERS ───────────────────────────────────────────────────────
+# ─── DATASET BUILDERS 
 
 def _split_dataset(full_train, full_test, digit_pairs, dataset_name):
     """Generic splitter for any torchvision classification dataset."""
@@ -149,7 +138,7 @@ DATASET_REGISTRY = {
 }
 
 
-# ─── EVALUATION ─────────────────────────────────────────────────────────────
+# ─── EVALUATION ─────────
 
 def evaluate(model, dataloader, device):
     model.eval()
@@ -164,7 +153,7 @@ def evaluate(model, dataloader, device):
     return correct / total if total > 0 else 0.0
 
 
-# ─── MAIN TRAINER ───────────────────────────────────────────────────────────
+# ─── MAIN TRAINER ──────────────
 
 class ContinualTrainer:
     """
@@ -233,7 +222,7 @@ class ContinualTrainer:
         return [name for name, mod in self.model.named_modules()
                 if isinstance(mod, nn.Linear)]
 
-    # ─── PUBLIC API ─────────────────────────────────────────────────────────
+    # ─── PUBLIC API ──────────────────
 
     def run(self, num_tasks: int = 3):
         tasks = self.tasks[:num_tasks]
