@@ -1,19 +1,19 @@
-🛡️ NeuroSentinel
-Real-Time Catastrophic Forgetting Detection via Gradient Conflict Analysis
+**🛡️ NeuroSentinel:**
+**Real-Time Catastrophic Forgetting Detection via Gradient Conflict Analysis**
 
 NeuroSentinel is a continual-learning diagnostic tool that monitors neural networks during training using PyTorch backward hooks, detecting catastrophic forgetting in real time through layer-wise gradient conflict analysis — rather than waiting for post-task evaluation to reveal that a model has already forgotten.
 
 
 Overview:
-When a neural network is trained sequentially on a series of tasks (continual / lifelong learning), it tends to overwrite what it learned on earlier tasks — a phenomenon known as **catastrophic forgetting**. NeuroSentinel instruments the training loop with backward hooks on each layer, computes a **gradient conflict score** relative to a reference snapshot from the previous task, and raises early warnings when conflict crosses a risk threshold — *before* the model's accuracy on old tasks collapses.
+When a neural network is trained sequentially on a series of tasks (continual / lifelong learning), it tends to overwrite what it learned on earlier tasks  a phenomenon known as **catastrophic forgetting**. NeuroSentinel instruments the training loop with backward hooks on each layer, computes a **gradient conflict score** relative to a reference snapshot from the previous task, and raises early warnings when conflict crosses a risk threshold — *before* the model's accuracy on old tasks collapses.
 The project tests three hypotheses across four benchmark datasets to validate this approach.
 
 
 
-Hypotheses Tested:
-| H1 | Gradient conflict magnitude predicts the *severity* of forgetting 
-| H2 | Forgetting risk is non-uniform across layers (deeper layers carry more risk) 
-| H3 | High-risk warnings are raised *before* accuracy collapse is observed (early warning capability)
+**Hypotheses Tested:**
+**| H1 |** Gradient conflict magnitude predicts the *severity* of forgetting 
+**| H2 |** Forgetting risk is non-uniform across layers (deeper layers carry more risk) 
+**| H3 |** High-risk warnings are raised *before* accuracy collapse is observed (early warning capability)
 
 
 📊 Datasets:
