@@ -2,20 +2,6 @@
 risk_scorer.py — Converting Raw Gradient Signals into Forgetting Risk Scores
 =============================================================================
 
-KEY FIXES vs. original:
-  - H1: Now computes actual Pearson r between mean risk and accuracy drop
-    (was just counting warnings before — not a real correlation test).
-  - H2: Replaced the "is_increasing" all-or-nothing boolean with Spearman's ρ
-    correlation between layer depth and mean risk. "H2_supported" is now based
-    on a real statistical threshold (ρ > 0.5).
-  - H3 compute_early_warning_lag: fixed the bug where it called
-    get_smoothed_risk() inside the per-entry loop instead of using the
-    entry's own risk value when scanning for the first threshold crossing.
-  - Added record_accuracy() so the trainer can log per-step accuracy and
-    enable full H1 and H3 computation.
-  - RISK_THRESHOLDS moved to a single dict with a helper so scorer and
-    visualizer share the same constants.
-
 HYPOTHESES
 ----------
 H1: Gradient conflict score is positively correlated with accuracy drop magnitude.
@@ -95,7 +81,7 @@ class RiskScorer:
         """
         self.accuracy_history[task_name].append({"step": step, "accuracy": accuracy})
 
-    # ─── SMOOTHING & THRESHOLDS ─────────────────────────────────────────────
+    # SMOOTHING & THRESHOLDS
 
     def get_smoothed_risk(self, layer: str) -> float:
         history = self.layer_risk_history.get(layer, [])
@@ -128,11 +114,11 @@ class RiskScorer:
         return {"step": step, "layer": layer, "level": level,
                 "risk": smoothed, "message": message}
 
-    # ─── H3: EARLY WARNING LAG ──────────────────────────────────────────────
+    # H3: EARLY WARNING LAG 
 
     def compute_early_warning_lag(self, task_name: str, layer: str) -> dict:
         """
-        H3: Does GradSentinel warn N steps BEFORE accuracy drops?
+        H3: Does NeuroSentinel warn N steps BEFORE accuracy drops?
 
         Algorithm
         ---------
@@ -205,7 +191,7 @@ class RiskScorer:
             )
         }
 
-    # ─── H1: CORRELATION TEST ────────────────────────────────────────────────
+    # H1: CORRELATION TEST 
 
     def _test_H1(self) -> dict:
         """
@@ -272,7 +258,7 @@ class RiskScorer:
                          "Call record_accuracy() during training to enable full H1.")
             }
 
-    # ─── H2: LAYER DEPTH vs. RISK (Spearman ρ) ──────────────────────────────
+    #  H2: LAYER DEPTH vs. RISK (Spearman ρ)
 
     def _test_H2(self) -> dict:
         """
@@ -314,7 +300,7 @@ class RiskScorer:
             )
         }
 
-    # ─── H3 SUMMARY ─────────────────────────────────────────────────────────
+    #  H3 SUMMARY 
 
     def _test_H3_summary(self) -> dict:
         """
@@ -350,7 +336,7 @@ class RiskScorer:
             )
         }
 
-    # ─── SUMMARY REPORTS ────────────────────────────────────────────────────
+    #SUMMARY REPORTS 
 
     def get_layer_summary(self) -> dict:
         summary = {}
