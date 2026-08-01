@@ -16,7 +16,7 @@ import json
 import os
 
 
-# ─── SHARED THRESHOLDS ──────────────────────────────────────────────────────
+# ─── SHARED THRESHOLDS 
 
 RISK_THRESHOLDS = {
     "safe":    0.40,
@@ -51,8 +51,7 @@ class RiskScorer:
         # All warnings that were issued
         self.warnings_issued = []
 
-    # ─── INGEST ─────────────────────────────────────────────────────────────
-
+    # ─── INGEST 
     def process_audit_snapshot(self, risk_data: list) -> list:
         """
         Ingest a list of per-layer risk dicts from auditor.get_risk_snapshot().
