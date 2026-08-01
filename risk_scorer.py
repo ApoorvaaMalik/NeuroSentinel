@@ -129,9 +129,7 @@ class RiskScorer:
            lag > 0 → warned early ✓
            lag ≤ 0 → warned too late or after the fact ✗
 
-        FIX: we now use `entry["risk"]` (the value at that step) instead of
-        calling get_smoothed_risk() (which would return the *current* smoothed
-        value for every iteration, finding the wrong crossing point).
+       
         """
         acc_hist  = self.accuracy_history.get(task_name, [])
         risk_hist = self.layer_risk_history.get(layer, [])
